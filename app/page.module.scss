@@ -1,0 +1,25 @@
+.main {
+  color: #1A202C;
+
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+
+    .active {
+      background: #BEE3F8
+    }
+
+    h4 {
+      font-size: 14px;
+    }
+  }
+
+  .categoryInfo {
+    padding: 10px 0;
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
