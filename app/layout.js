@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { Container } from '@chakra-ui/react'
+import { Analytics } from '@vercel/analytics/react';
 
 import { Providers } from "./providers";
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
             </nav>
            {children}
           </Container>
+          <Analytics />
         </Providers>
       </body>
     </html>
