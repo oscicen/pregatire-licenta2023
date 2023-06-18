@@ -3937,8 +3937,8 @@ export const data = [
         ]
       },
       {
-        id: 16,
-        number: 17,
+        id: 15,
+        number: 16,
         question: 'Mentenanţa unui sistem reprezintă:',
         answers: [
           {
@@ -3964,8 +3964,8 @@ export const data = [
         ]
       },
       {
-        id: 17,
-        number: 18,
+        id: 16,
+        number: 17,
         question: 'Ciclurile de bază ale proiectării unui sistem informatic sunt:',
         answers: [
           {
