@@ -109,7 +109,7 @@ export default function Home() {
       <div className={styles.actions}>
         <Button className={styles.modalBtn} onClick={() => setOpen(true)}>Setari</Button>
         <div className={styles.stats}>
-          <div className={styles.correct}><p><span>Corecte:</span> {stats.answered}</p></div>
+          <div className={styles.correct}><p><span>Corecte:</span> {stats.correct}</p></div>
           <div className={styles.wrong}><p><span>Gresite:</span> {stats.answered - stats.correct}</p></div>
           <div className={styles.percentage}><p>{Math.floor((stats.correct / stats.answered) * 100 || 0)}%</p></div>
         </div>
