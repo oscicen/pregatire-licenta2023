@@ -22,10 +22,8 @@ export default function RootLayout({ children }) {
         <Providers>
           <Container maxW='3xl'>
             <nav>
-              <div>
-                <Link href='/'>Chestionar</Link>
-                <Link href='/list'>Lista intrebari</Link>
-              </div>
+              <Link href='/'>Chestionar</Link>
+              <Link href='/list'>Lista intrebari</Link>
             </nav>
            {children}
           </Container>

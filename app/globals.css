@@ -105,12 +105,13 @@ nav a {
   font-size: 14px;
   padding: 10px 0;
   display: inline-block;
-  border-bottom: 1px solid transparent;
+  margin-bottom: -1px;
+  border-bottom: 2px solid transparent;
 }
 
 nav a:hover {
   color: #1A202C;
-  border-bottom: 1px solid blue;
+  border-bottom: 2px solid blue;
 }
 
 @media (prefers-color-scheme: dark) {

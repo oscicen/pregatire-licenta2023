@@ -1,17 +1,38 @@
 .main {
   color: #1A202C;
 
-  .filters {
+  .actions {
     display: flex;
     gap: 10px;
-    margin: 10px 0;
 
-    .active {
-      background: #BEE3F8
+    .modalBtn {
+      width: 100%;
+      margin-top: 10px;
     }
 
-    h4 {
-      font-size: 14px;
+    .stats {
+      margin-top: 10px;
+      display: flex;
+      width: 100%;
+      gap: 10px;
+
+      div {
+        font-size: 16px;
+        padding: 8px;
+        flex-grow: 1;
+        text-align: center;
+        border-radius: 4px;
+      }
+
+      .wrong {
+        background: #FC8181;
+      }
+      .correct {
+        background: #9AE6B4;
+      }
+      .percentage {
+        background: #BEE3F8;
+      }
     }
   }
 
@@ -21,5 +42,26 @@
     p {
       font-size: 12px;
     }
+  }
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+
+  .active {
+    background: #BEE3F8
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 671px) {
+  .main .actions .stats div span {
+    display: none;
   }
 }

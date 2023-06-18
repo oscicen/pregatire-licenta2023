@@ -1,7 +1,19 @@
 'use client'
 import { useEffect, useState } from 'react'
 import classNames from 'classnames'
-import { Box } from '@chakra-ui/react'
+import Cookies from 'js-cookie'
+import {
+  Button,
+  Box,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  Switch
+} from '@chakra-ui/react'
 
 import Question from '@/components/Question'
 import { data } from '@/db/data'
@@ -15,6 +27,16 @@ export default function Home() {
   const [question, setQuestion] = useState(null);
   const [filters, setFilters] = useState([]);
   const [isRandom, setIsRandom] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [stats, setStats] = useState({ answered: 5, correct: 3 });
+
+  useEffect(() => {
+    if (Cookies.get('stats')) {
+      setStats(JSON.parse(Cookies.get('stats')));
+    } else {
+      Cookies.set('stats', JSON.stringify({ answered: 0, correct: 0 }), { expires: 7 });
+    }
+  }, []);
 
   useEffect(() => {
     const newCategory = data.find(c => c.id === categoryId);
@@ -63,30 +85,82 @@ export default function Home() {
     setFilters(newFilters.sort((a ,b) => a - b));
   }
 
+  const resetStats = () => {
+    setStats({ answered: 0, correct: 0 });
+    Cookies.set('stats', JSON.stringify({ answered: 0, correct: 0 }), { expires: 7 });
+  }
+
+  const onNext = (correct) => {
+    let newStats;
+    if (correct) {
+      newStats = { answered: stats.answered + 1, correct: stats.correct + 1 }
+    } else {
+      newStats = { answered: stats.answered + 1, correct: stats.correct }
+    }
+
+    setStats({ ...newStats })
+    Cookies.set('stats', JSON.stringify({ ...newStats }), { expires: 7 });
+
+    isRandom ? randomQuestion() : nextQuestion()
+  }
+
   return (
     <main className={styles.main}>
-      <div className={styles.filters}>
-        { data.map(c => (
-          <Box
-            className={classNames({ [styles.active]: filters.includes(c.id) })}
-            key={c.id}
-            as='button'
-            borderRadius='md'
-            borderWidth='1px'
-            p={2}
-            onClick={() => handleFilter(c.id)}
-          >
-            <h4>{ c.category }</h4>
-          </Box>
-        )) }
+      <div className={styles.actions}>
+        <Button className={styles.modalBtn} onClick={() => setOpen(true)}>Setari</Button>
+        <div className={styles.stats}>
+          <div className={styles.correct}><p><span>Corecte:</span> {stats.answered}</p></div>
+          <div className={styles.wrong}><p><span>Gresite:</span> {stats.answered - stats.correct}</p></div>
+          <div className={styles.percentage}><p>{Math.floor((stats.correct / stats.answered) * 100 || 0)}%</p></div>
+        </div>
       </div>
+
+      <Modal isOpen={open} onClose={() => setOpen(false)}>
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Setari</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody>
+            <div className={styles.filters}>
+              <p>Selecteaza categoria:</p>
+              { data.map(c => (
+                <Box
+                  className={classNames({ [styles.active]: filters.includes(c.id) })}
+                  key={c.id}
+                  as='button'
+                  borderRadius='md'
+                  borderWidth='1px'
+                  p={2}
+                  onClick={() => handleFilter(c.id)}
+                >
+                  <h4>{ c.category }</h4>
+                </Box>
+              )) }
+              <br />
+              <p>Mod afisare aleatoriu?</p>
+              <Switch isChecked={isRandom} onChange={(e) => setIsRandom(e.target.checked)} />
+              <br />
+              <p>Reseteaza progresul:</p>
+              <Button mr={3} onClick={() => resetStats()}>
+                Reset
+              </Button>
+            </div>
+          </ModalBody>
+
+          <ModalFooter>
+            <Button mr={3} onClick={() => setOpen(false)}>
+              Inchide
+            </Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
       {category && (
         <div className={styles.categoryInfo}>
           <h2>{`${category.number}. ${category.category}`}</h2>
           <p>{category.teacher}</p>
         </div>
       )}
-      {question && <Question question={question} goNext={isRandom ? randomQuestion : nextQuestion} />}
+      {question && <Question question={question} goNext={onNext} />}
     </main>
   )
 }

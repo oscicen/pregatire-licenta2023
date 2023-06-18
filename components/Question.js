@@ -12,7 +12,9 @@ const Question = ({ question, goNext, isList }) => {
   const onNextQuestion = () => {
     setGuess('')
     setCheck(false)
-    goNext()
+
+    const selectedAnswer = question.answers.find(a => a.id === guess)
+    goNext(selectedAnswer.isTrue)
   }
 
   const onAnswerSelect = (answerId) =>{
