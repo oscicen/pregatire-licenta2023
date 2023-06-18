@@ -113,9 +113,3 @@ nav a:hover {
   color: #1A202C;
   border-bottom: 2px solid blue;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
