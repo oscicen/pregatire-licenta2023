@@ -28,7 +28,7 @@ export default function Home() {
   const [filters, setFilters] = useState([]);
   const [isRandom, setIsRandom] = useState(false);
   const [open, setOpen] = useState(false);
-  const [stats, setStats] = useState({ answered: 5, correct: 3 });
+  const [stats, setStats] = useState({ answered: 0, correct: 0 });
 
   useEffect(() => {
     if (Cookies.get('stats')) {
