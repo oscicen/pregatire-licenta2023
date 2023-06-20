@@ -1895,6 +1895,1815 @@ export const data = [
           }
         ]
       },
+      {
+        id: 70,
+        number: 72,
+        question: 'Stabiliţi valoarea capitalului propriu cunoscând soldurile conturilor: <br />Ct 1011… .4.000 lei <br />Ct 1012.….1.500 lei <br />Ct 104 ……..500 lei <br />Ct 161 …...2.000 lei <br />Ct 162 …...1.500 lei <br />Ct 211 …...1.000 lei <br />Ct 212…... 6.000 lei <br />Ct 371……1.000 lei <br />Ct 5121…..1.000 lei',
+        answers: [
+          {
+            id: 'a',
+            answer: '4.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '2.500 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '3.500 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '6.000 lei.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 71,
+        number: 73,
+        question: 'Ce explicaţie puteţi asocia formulei contabile: 129 = 1061',
+        answers: [
+          {
+            id: 'a',
+            answer: 'repartizarea profitului la „Rezerva legală” înainte de închiderea exerciţiului financiar;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'acoperirea pierderii din „Alte rezerve”;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'majorarea capitalului social din „Alte rezerve”;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'reportarea pierderii pentru alte exerciţii financiare viitoare;',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 72,
+        number: 76,
+        question: 'O entitate economică are: capital social 7.000 lei, rezerve 2.000 lei, rezerve din reevaluare 1.500 lei, numărul acţiunilor 3.500. Se majorează capitalul social prin emitere de 1.000 acţiuni la valoarea de emisiune egală cu valoarea contabilă a vechilor acţiuni. Care este valoarea contabilă (VC) nouă şi prima de emisiune (PE)? <br /> VC nouă PE',
+        answers: [
+          {
+            id: 'a',
+            answer: '3 lei 500 lei',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '1,5 lei 1.000 lei',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '3 lei 1.000 lei',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '1,5 lei 500 lei',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 73,
+        number: 78,
+        question: 'Alegeţi formula contabilă corectă, pentru constituirea unor rezerve legale, în valoare de 720 lei, din profitul brut realizat la închiderea exerciţiului curent:',
+        answers: [
+          {
+            id: 'a',
+            answer: '129 = 1061 720',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '117 = 1061 720',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '121 = 1061 720',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '1061 = 117 720',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 74,
+        number: 79,
+        question: 'Ce explicaţie puteţi asocia formulei contabile: 1171 = 457',
+        answers: [
+          {
+            id: 'a',
+            answer: 'repartizare profit la rezerve;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'acoperirea pierderilor din anii precedenţi din dividende;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'achitarea dividendelor datorate în anii precedenţi;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'repartizarea profitului reportat la dividende.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 75,
+        number: 81,
+        question: 'Care este formula contabilă corectă de înregistrare a utilizării primelor de capital în scopul majorării capitalului social?',
+        answers: [
+          {
+            id: 'a',
+            answer: ' 104 = 1011',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '1011 = 104',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '1011 = 1012',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '104 = 1012',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 76,
+        number: 82,
+        question: 'Ce explicaţie puteţi asocia următoarei formule contabile: 1012 = 1171',
+        answers: [
+          {
+            id: 'a',
+            answer: 'majorarea capitalului social pe seama rezultatelor şi a primelor obţinute;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'transformarea capitalului social în profit şi în prime;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'diminuarea capitalului social concomitent cu obţinerea unui profit;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'acoperirea pierderilor pe seama capitalului social. ',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 77,
+        number: 84,
+        question: 'La constituirea unui provizion pentru garanţii acordate clienţilor în sumă de 1.200 lei se face înregistrarea contabilă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '117 = 1512 1.200',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '129 = 1512 1.200',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '6812 = 1512 1.200',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '1512 = 7812 1.200',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 78,
+        number: 85,
+        question: 'La constituirea unui provizion pentru costurile estimate pentru demontarea şi mutarea unui utilaj în sumă de 1.500 lei se face înregistrarea contabilă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '117 = 1513 1.500',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '129 = 1512 1.500',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '681 = 1513 1.500',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '2131 = 1513 1.500',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 80,
+        number: 87,
+        question: '. Un provizion va fi recunoscut în contabilitate în cazurile în care: <br />A. o societate are o obligaţie curentă (legală sau implicită) generată de un evenimentanterior; <br />B. o societate are o obligaţie curentă (legală sau implicită) generată de un evenimentcurent; <br />C. este probabil ca o ieşire de resurse care să afecteze beneficiile economice să fienecesară pentru a onora obligaţia respectivă; <br />D. este probabil ca o intrare de resurse care să afecteze beneficiile economice să fienecesară pentru a onora obligaţia respectivă; <br />E. nu este posibilă estimarea valorii obligaţiei; <br />F. poate fi realizată o bună estimare a valorii obligaţiei. <br />Variante de răspuns:',
+        answers: [
+          {
+            id: 'a',
+            answer: '(A), (B) şi (F);',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '(B), (D) şi (E);',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '(A), (C) şi (F);',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '(A), (C) şi (E);',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 81,
+        number: 88,
+        question: 'Imobilizările corporale se prezintă în bilanț la valoarea contabilă, reprezentată de: ',
+        answers: [
+          {
+            id: 'a',
+            answer: 'valoarea de intrare sau orice valoare a înlocuit-o pe aceasta, mai puţin amortizarea şi ajustările pentru depreciere cumulate;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'valoarea de intrare sau orice valoare a înlocuit-o pe aceasta , mai puţin ajustările pentru depreciere cumulate;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'valoarea istorică plus valoarea reevaluată;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'valoarea de aport, mai puţin ajustările de valoare cumulate',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 82,
+        number: 89,
+        question: ' Imobilizările corporale reprezintă active care:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'sunt deţinute de o entitate pentru a fi utilizate în producţia de bunuri sau prestarea de servicii;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'sunt deţinute de o entitate pentru o perioadă mai mare de un an cu scopul de a fi utilizate în producţia de bunuri sau prestarea de servicii, pentru a fi închiriate terţilor sau pentru a fi vândute;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'sunt deţinute de o entitate pentru a fi utilizate în producţia de bunuri sau prestarea de servicii şi pentru a fi utilizate în scopuri administrative;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'sunt deţinute de o entitate pentru a fi utilizate în producţia de bunuri sau prestarea de servicii, pentru a fi închiriate terţilor sau pentru a fi utilizate în scopuri administrative şi sunt utilizate pe parcursul unei perioade mai mare de un an.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 83,
+        number: 90,
+        question: 'Alegeţi răspunsul care NU este corect: pentru amortizarea imobilizărilor corporale o entitate economică poate să folosească metoda: ',
+        answers: [
+          {
+            id: 'a',
+            answer: 'amortizare liniară;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'amortizare liniară în primul an, urmată de amortizare degresivă în următorii ani de utilizare;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'amortizare degresivă;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'amortizare accelerată, care se concretizează în amortizarea a 50% din valoarea amortizabilă în primul an urmată de metoda liniară în perioada de viață rămasă.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 84,
+        number: 91,
+        question: 'Care din următoarele afirmaţii privind imobilizările corporale NU este corectă:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'imobilizările corporale sunt active destinate a fi utilizate în producţia de bunuri;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'imobilizările corporale sunt active destinate a fi utilizate în prestarea de servicii;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'imobilizările corporale sunt active destinate a fi închiriate terţilor;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'imobilizările corporale sunt active care pot fi evaluate în mod credibil dar nu generează beneficii economice viitoare.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 85,
+        number: 94,
+        question: '. Entitatea ABC achiziţionează utilaj din import la sfârşitul lunii iunie a anului N, cheltuielile legate de achiziţie fiind : <br />- Pretul negociat cu furnizorul extern (3.000 $; curs valutar din DVI 3,3 lei/$; curs valutar in ziua platii 3,42 lei/$); <br />- taxe vamale 1.800 lei; <br />- TVA achitata în vamă 2.223 lei; <br />- cheltuieli de transport 1.500 lei; <br />- cheltuieli de manipulare 1.000 lei; <br />- reducere comercială primită de la furnizor 800 lei; <br />- reducere financiară (scont) primită de la furnizor 250 lei. <br />Durata de viaţă utilă este de 5 ani, amortizare liniară. <br />Care este valoarea la care se va reflecta utilajul în bilanţ la închiderea exerciţiului financiar N?',
+        answers: [
+          {
+            id: 'a',
+            answer: '12.140 lei',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '12.924 lei',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '14.060 lei',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '12.060 lei',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 86,
+        number: 96,
+        question: 'Firma X achiziționează, la sfârșitul anului N, un utilaj la prețul de achiziție de 4.200 lei, transport 200 lei, montaj 400 lei, costuri de introducere a unui nou produs care se obține cu ajutorul utilajului 350 lei. Pentru utilaj firma alege metoda de amortizare liniară și o durată de viață de 5 ani. După 2 ani de funcționare se modifică durata de viață rămasă la 2 ani. Modificarea duratei de viață conduce la:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'Recalcularea amortizării pentru anii precedenți și înregistrarea diferenței 1174 = 2813',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'Recalcularea amortizării pentru anii precedenți și înregistrarea diferenței 2813 = 1174',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'Recalcularea amortizării pentru anii precedenți și înregistrarea diferenței 1174 = 2131',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '12.060 lei',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 87,
+        number: 97,
+        question: 'Firma X achiziționează, la sfârșitul anului N, un utilaj la prețul de achiziție de 4.200 lei, transport 200 lei, montaj 400 lei, costuri de introducere a unui nou produs care se obține cu ajutorul utilajului 350 lei. Pentru utilaj firma alege metoda de amortizare liniară și o durată de viață de 5 ani. Amortizarea anuală corectă este:',
+        answers: [
+          {
+            id: 'a',
+            answer: '6811 = 2813 960',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '6811 = 2813 1.030',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '6811 = 2813 840',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '6811 = 2813 880',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 88,
+        number: 104,
+        question: 'Care din următoarele afirmaţii nu este adevărată:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'Reevaluările trebuie să fie efectuate cu o regularitate suficientă;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'Reevaluarea trebuie să se aplice la toate bunurile din aceeaşi categorie;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'Rezerva din reevaluare se transferă la rezultatul reportat atunci când aceasta este considerată un câştig realizat;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'Transferul rezervelor la rezultatul reportat trece prin contul de profit sau pierdere.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 89,
+        number: 105,
+        question: 'O entitate achizitioneaza o imobilizare corporala in urmatoarele conditii: pret de cumparare 205.000 lei, reducere financiară 5.000 lei, TVA 19%. Instalarea este efectuata de o unitate specializata, cheltuielile cu instalarea fiind de 4.000 lei, TVA 19%. La sfarsitul duratei de viata utila, care este estimata la 5 ani, entitatea are obligatia legala de a demonta utilajul si de a reface amplasamentul, cheltuielile cu demontarea si refacerea amplasamentului fiind estimate la 6.000 lei. Care este costul imobilizarii (valoarea de recunoastere)?',
+        answers: [
+          {
+            id: 'a',
+            answer: '215.000 lei;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '204.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '206.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '210.000 lei.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 90,
+        number: 106,
+        question: 'O entitate economică achizitioneaza, la sfârşitul anului N - 1, o imobilizare corporala al carei cost este de 150.000 lei. Aceasta imobilizare corporala se amortizeaza pe o durata de 7 ani, prin metoda liniară. La 31.12.N+1, imobilizarea se reevalueaza, la valoarea justa de 120.000 lei. Care este valoarea amortizarii in exercitiul N + 2.',
+        answers: [
+          {
+            id: 'a',
+            answer: '25.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '30.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '40.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '24.000 lei;',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 91,
+        number: 107,
+        question: 'O entitate economică achizitioneaza, la sfârşitul anului N - 1, o imobilizare corporala al carei cost este de 117.000 lei. Aceasta imobilizare corporala se amortizeaza pe o durata de 10 ani. La 31 decembrie N + 2, imobilizarea se reevalueaza, la valoarea justa de 84.000 lei. Care este valoarea amortizarii inregistrata in exercitiul N + 1?',
+        answers: [
+          {
+            id: 'a',
+            answer: '10.500 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '20.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '11.700 lei;',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '12.000 lei;',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 92,
+        number: 108,
+        question: 'O entitate economică achizitioneaza, la sfârşitul anului N, o imobilizare corporala al carei cost este de 80.000 lei. Aceasta imobilizare corporala se amortizeaza prin metoda liniară pe o durata de 4 ani. La 31.12.N+2, imobilizarea se reevalueaza, la valoarea justa de 35.000 lei. Care este valoarea rezervei din reevaluare înregistrată la sfârșitul exercitiul N + 2.',
+        answers: [
+          {
+            id: 'a',
+            answer: '15.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '5.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '0 lei;',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '4.000 lei',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 93,
+        number: 109,
+        question: 'Metoda de amortizare se poate modifica atunci când:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'aceasta este determinată de o eroare în estimarea modului de consumare a beneficiilor economice aferente respectivei imobilizări;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'la schimbarea conducătoriloe entităţii, dacă aceştia consideră că metoda folosită nu corespunde noilor politici contabile;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'se decide reevaluarea respectivei imobilizări;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'metoda de amortizare nu se poate schimba.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 94,
+        number: 110,
+        question: 'Ce semnifică următoarea formulă contabilă: 461 = 7583 şi 281 = 21X',
+        answers: [
+          {
+            id: 'a',
+            answer: 'vânzarea unui activ neamortizat;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'vânzarea unui activ complet amortizat;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'casarea unui activ;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'scoaterea din evidenţa contabilă a unui activ primit din subvenţii.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 95,
+        number: 112,
+        question: 'Punerea în funcţiune a unei instalaţii obţinute în cursul lunii din producţia proprie și folosită în secția de producție, costul său fiind de 2.000 lei, va fi înregistrată cu formula:',
+        answers: [
+          {
+            id: 'a',
+            answer: '212 = 721 2,000',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '212 = 711 2.000',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '345 = 711 2.000, 2131 = 404 2.000',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '2131 = 722 2.000',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 96,
+        number: 116,
+        question: 'O entitate economică cu obiect de activitate producția de mezeluri, efectuează următoarele operații în legătură cu un utilaj de umplut salam: înlocuiește o curea de transmisie uzată (350 lei) și o componentă cu scopul de a crește numărul de bucăți salam umplute într-o oră (800 lei). Alegeți răspunsul pentru înregistrarea operațiior descriese:',
+        answers: [
+          {
+            id: 'a',
+            answer: '611 = 401 350 Și 2131 = 404 800',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '611 = 401 1.150',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '611 = 401 350 Și 303 = 401 800',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '2131 = 404 1.150',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 97,
+        number: 118,
+        question: 'Se achiziționează un calculator la prețul de achiziție de 3.300 lei, un sistem de operare la costul de achiziție de 700 lei și un program antivirus la costul de 650 lei. Alegeți înregistrarea corectă.',
+        answers: [
+          {
+            id: 'a',
+            answer: '214 = 404 4.000 Și 208 = 404 650',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '214 = 404 3.300 Și 208 = 404 1.350',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '214 = 404 4.650',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '214 = 404 3.300 Și 205 = 404 1.350',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 98,
+        number: 119,
+        question: 'Care dintre următoarele active nu este considerat un activ imobilizat și va fi raportat în bilanț în categoria activelor circulante?',
+        answers: [
+          {
+            id: 'a',
+            answer: 'mobilier produs in unitate cu scopul de a fi folosit în departamentul de contabilitate;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'fondul comercial pozitiv',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'partea din împrumuturile acordate pe termen lung cu scadență în următoarele 12 luni',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: 'împrumuturi acordate pentru o perioadă ce depășește 12 luni de la data bilanțului',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 99,
+        number: 120,
+        question: 'La data de 01.01.N se importă un echipament în valoare de 45.000 lei, taxe vamale 450 lei, reducere comercială primită de la furnizor 200 lei. În vederea achiziţiei, societatea a suportat următoarele costuri suplimentare: costuri de livrare 360 lei, costuri de instalare 900 lei, costuri generale de administraţie 6.000 lei, cheltuieli cu reclama 2.000 lei. Pentru a aduce echipamentul în condiţiile de funcţionare s-au suportat costuri de 4.000 lei. Costurile de deschidere a noului echipament au fost de 2.500 lei, costurile de testare a funcţionării corecte a activului, de 1.700 lei, iar încasările nete provenite din vânzarea cozonacilor produși la testarea echipamentului, de 350 lei. În primele 4 luni, societatea s-a hotărât să introducă un nou sortiment de cozonaci, costurile fiind de 1.000 lei. Costul de achiziție al echipamentului este de:',
+        answers: [
+          {
+            id: 'a',
+            answer: '52.060 lei ',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '51.860 lei',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '52.210 lei',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '54.360 lei',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 100,
+        number: 121,
+        question: 'Costul de achiziție al unui teren este de 120.000 lei. La sfârșitul anului N se face prima reevaluare a terenului la valoarea justă de 128.000 lei. La 31.12.N + 3 se face cea de a doua reevaluare la valoarea justă de 125.500 lei. Rezultatul reevaluării de la data de 31.12 N + 3 va genera:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'O diminuare a veniturilor din reevaluare cu 2.500 lei',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'O diminure a rezultatului report provenit din surplusul de rezeve din reevaluare cu suma de 2.500 lei',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'O diminuare a rezervei din reevaluare cu 2.500 lei',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: 'O creștere a cheltuielilor din reevaluare cu suma de 2.500 lei',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 101,
+        number: 122,
+        question: 'Costul de achiziție al unui teren este de 120.000 lei. La sfârșitul anului N se face prima reevaluare a terenului la valoarea justă de 119.000 lei. La 31.12.N + 3 se face cea de a doua reevaluare la valoarea justă de 116.500 lei. Rezultatul reevaluării de la data de 31.12 N + 3 va genera: ',
+        answers: [
+          {
+            id: 'a',
+            answer: 'O diminuare a veniturilor din reevaluare cu 2.500 lei',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'O diminure a rezultatului report provenit din surplusul de rezeve din reevaluare cu suma de 2.500 lei',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'O diminuare a rezervei din reevaluare cu 2.500 lei',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'O creștere a cheltuielilor din reevaluare cu suma de 2.500 lei',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 102,
+        number: 123,
+        question: 'Ce semnifică următoarea înregistrare contabilă: 261 = 269',
+        answers: [
+          {
+            id: 'a',
+            answer: 'Achiziţia de acţiuni de la altă societate în scop speculativ (pe termen scurt);',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'Achiziţia de acţiuni pe termen lung de la altă societate;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'Plata acţiunilor achiziţionate;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'Dividende de încasat pentru acţiunile deţinute de la altă societate',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 103,
+        number: 124,
+        question: 'Ce semnifică înregistrarea contabilă: 6641 = 261 25.000 lei',
+        answers: [
+          {
+            id: 'a',
+            answer: 'ieşirea din gestiune a titlurilor de participare vândute;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'achiziţia titlurilor de participare;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'plus de inventar la titlurile de participare;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'plata titlurilor de participare.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 104,
+        number: 125,
+        question: 'Care este formula contabilă prin care se înregistrează în contabilitate contravaloarea „Altor titluri imobilizate” primite cu titlu gratuit:',
+        answers: [
+          {
+            id: 'a',
+            answer: '265 „Alte titluri imobilizate” = 269 „Varsăminte de efectuat...”',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '265„Alte titluri imobilizate” = 1068 „Alte rezerve”',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '269„Varsăminte de efectuat...” = 265„Alte titluri imobilizate”',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '265„Alte titluri imobilizate” = 768”Alte venituri financiare”',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 105,
+        number: 128,
+        question: 'Se prezintă înregistrarea contabilă: 2913 = Cont X 700 Știind că aceasta reprezintă anularea ajustării reversibile pentru deprecierea unui utilaj (imobilizare corporală), Contul X este:',
+        answers: [
+          {
+            id: 'a',
+            answer: '7813',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '6813',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '2131',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '2813',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 107,
+        number: 129,
+        question: 'Evaluarea stocurilor la intrare se face la cost de achiziţie alcătuit din:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'preţ de achiziţie + taxe nerecuperabile + cheltuieli conexe – reducerile comerciale primite;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'cost de achiziţie + TVA + alte cheltuieli;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'preţ de achiziţie + TVA + cheltuieli conexe;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'preţ de achiziţie + TVA + cheltuieli conexe – remiza şi sconturile primite.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 108,
+        number: 130,
+        question: 'Metoda de evaluare a stocurilor FIFO:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'presupune calculul costului aferent fiecărui element ieşit din gestiune pe baza datelor din bilanţ;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'se caracterizează prin aceea că pentru ieşirile din stoc se utilizează costul intrărilor în ordinea cronologică a apariţiei lor;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'se caracterizează prin aceea că pentru ieşirile din stoc se utilizează costul intrărilor prin identificări specifice;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'presupune evaluarea ieşirilor de stocuri din gestiune în ordinea invers cronologică.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 109,
+        number: 131,
+        question: 'Ce semnifică următoarea formulă contabilă: 711 = 345',
+        answers: [
+          {
+            id: 'a',
+            answer: 'înregistrarea vânzării de produse finite;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'predarea cu titlu gratuit de produse reziduale;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'înregistrarea unui plus la inventarierea produselor finite;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'înregistrarea scoaterii din evidenţă a produselor finite.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 110,
+        number: 133,
+        question: 'Se achiziţionează mărfuri la preţ de achiziţie 4.760 lei inclusiv TVA 19%, rabat 2%, remiză 3%. Care este costul de achiziţie al mărfurilor?',
+        answers: [
+          {
+            id: 'a',
+            answer: '4.524,86 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '3.802,40 lei;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '4.522,00 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '3.800,00 lei.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 111,
+        number: 134,
+        question: 'O entitate economică ţine evidenţa mărfurilor la preţ cu amănuntul inclusiv TVA, procentul de adaos comercial 20%. Se aprovizionează cu mărfuri pe baza facturii: preţ de cumpărare 7.735 lei (TVA inclus 19%), reducere comercială 5%. Preţul de vânzare cu amănuntul afişat în magazin este:',
+        answers: [
+          {
+            id: 'a',
+            answer: '9.282 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '8.481,6 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '7.800 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '8.817,9 lei.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 112,
+        number: 135,
+        question: 'O entitate economică ţine evidenţa mărfurilor la preţ cu amănuntul inclusiv TVA, procentul de adaos comercial 20%. Se aprovizionează cu mărfuri pe baza facturii: preţ de cumpărare 7.735 lei (TVA inclus 19%), reducere financiară 5%. Preţul de vânzare cu amănuntul afişat în magazin este:',
+        answers: [
+          {
+            id: 'a',
+            answer: '9.282 lei;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '8.481,6 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '7.800 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '8.817,9 lei.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 113,
+        number: 136,
+        question: 'SC MIC S.A. a achiziţionat mărfuri din import la preţul de cumpărare 4.800 lei, taxe vamale 800 lei, TVA achitată în vamă 912 lei, cheltuieli de transport intern 150 lei, cheltuieli de manipulare 50 lei, reducere comercială acordată de furnizor 100 lei. Care este costul de achiziţie al mărfurilor:',
+        answers: [
+          {
+            id: 'a',
+            answer: '5.700 lei;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '8.481,6 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '4.900 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '5.912 lei',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 114,
+        number: 137,
+        question: 'SC MIC S.A. a fabricat în cursul unei perioade de gestiune 600 bucăţi dintr-un produs pentru care s-au efectuat următoarele cheltuieli: cheltuieli directe 22.000 lei, cheltuieli indirecte 5.400 lei (din care cheltuieli fixe raţional repartizate 2.400 lei şi cheltuieli variabile 3.000 lei), cheltuieli de desfacere 2.000 lei. Care este costul de producţie?',
+        answers: [
+          {
+            id: 'a',
+            answer: '22.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '27.400 lei;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '29.400 lei:',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '27.000 lei.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 115,
+        number: 138,
+        question: 'Stocul „X” prezintă în luna februarie anul N următoarea situaţie: sold iniţial 500 buc x 20 lei/buc; 5.02.N intrare 100 buc x 22 lei/buc; 12.02.N intrare 150 buc x 21 lei/buc; 15.02.N ieşire 550 buc. Ştiind că societatea foloseşte metoda de evaluare la ieşire FIFO, care este costul stocurilor ieşite?',
+        answers: [
+          {
+            id: 'a',
+            answer: '11.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '27.400 lei;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '12.100 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '11.550 lei.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 116,
+        number: 139,
+        question: 'Stocul „X” prezintă în luna februarie anul N următoarea situaţie: sold iniţial 500 buc x 20 lei/buc; 5.02.N intrare 100 buc x 22 lei/buc; 12.02.N intrare 150 buc x 21 lei/buc; 11.02.N ieşire 550 buc. Ştiind că societatea foloseşte metoda de evaluare la ieşire LIFO, care este costul stocurilor ieşite?',
+        answers: [
+          {
+            id: 'a',
+            answer: '11.200 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '11.100 lei;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '12.100 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '11.350 lei.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 117,
+        number: 141,
+        question: 'Se achiziţionează mărfuri la preţul de 10.000 lei, rabat 5%, remiză 7%, scont de decontare 2%, TVA 19%. Care este costul mărfurilor?',
+        answers: [
+          {
+            id: 'a',
+            answer: '10.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '9.500 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '8.658,30 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '8.835 lei.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 118,
+        number: 142,
+        question: 'Preţul de vanzare cu amănuntul este format din:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'costul de achiziţie + adaos comercial;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'costul de achiziţie + adaos comercial + TVAneexigibil;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'preţul de achiziţie + adaos comercial.',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '8.835 lei.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 119,
+        number: 145,
+        question: 'O entitate economică are ca obiect de activitate vânzare mărfuri cu ridicata începând din februarie, anul N. Metodă de evaluare la ieșire folosită este LIFO. La sfârşitul anului N + 1 constată că metoda LIFO nu este adecvată dinamicii prețului mărfurilor și că metoda CMP ar oferi informații mai relevante și mai credibile prin intermediul situațiilor financiare. Entitatea are toate informațiile pentru a evalua mărfurile la noua metodă și pe anul precedent. În anul N cheltuielile cu mărfurile evaluate cu metoda CMP sunt cu 500 lei mai mici față de metoda LIFO, iar pentru anul N + 1, anul în curs, cu 50 lei mai mari. Efectul retrospectiv al modificării politicii contabile se înregistrează prin formula:',
+        answers: [
+          {
+            id: 'a',
+            answer: '371 = 1173 500',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '1173 = 371 500',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '607 = 371 500',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '371 = 607 500',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 120,
+        number: 146,
+        question: 'O entitate economică, înregistrată în scopuri de TVA, care utilizează metoda inventarului intermitent, achiziţionează materii prime în următoarele condiţii: preţ de cumpărare 4.000 lei, reducere comercială 2%, TVA 19%. Recunoaşterea (contabilizarea) materiilor prime presupune:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'Debitarea contului 301 „Materii prime” cu suma de 3.920 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'Debitarea contului 301 „Materii prime” cu suma de 4.860,80 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'Debitarea contului 601 „Cheltuieli cu materiile prime” cu suma de 3.920 lei;',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: 'Debitarea contului 601 „Cheltuieli cu materiile prime” cu suma de 4.860,20 lei;',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 121,
+        number: 150,
+        question: 'O entitate economică are mărfuri la cost de achiziție de 9.000 lei. Se vând 30% din mărfuri cu prețul de vânzare de 4.000 lei. Alegeți formula contabilă prin care se înregistrează descărcarea din evidența contabilă a mărfurilor vândute.',
+        answers: [
+          {
+            id: 'a',
+            answer: '607 = 371 2.700',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '607 = 371 4.000',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '371 = 607 2.700',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '371 = 607 4.000',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 122,
+        number: 151,
+        question: 'Care din urmatoarele formule contabile nu este in concordanta cu explicatiile date?',
+        answers: [
+          {
+            id: 'a',
+            answer: '4111 = 707 Vanzare de marfuri conform facturii',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '4111 = 704 Recunoasterea veniturilor din servicii prestate',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '371 = 607 Descarcarea din evidența contabilă a mărfurilor vândute',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '401 = 5121 Achitare datorie față de furnizor',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 123,
+        number: 152,
+        question: 'Ce semnifică următoarea formulă contabilă: 371 = 4428',
+        answers: [
+          {
+            id: 'a',
+            answer: 'TVA neexigibilă aferentă achiziţiei de marfă pe baza avizului de expediţie;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'TVA neexigibilă ce intră în componenţa preţului cu amănuntul la mărfuri;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'TVA deductibilă fără drept de deducere, după aplicarea pro-rata;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'TVA neexigibilă aferentă livrării de marfă pe baza avizului de expediţie.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 124,
+        number: 153,
+        question: 'Ce semnifică următoarea formulă contabilă: 635 = 4426',
+        answers: [
+          {
+            id: 'a',
+            answer: 'TVA neexigibilă aferentă achiziţiei de marfă pe baza avizului de expediţie;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'TVA deductibilă ce intră în componenţa preţului cu amănuntul la mărfuri;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'TVA deductibilă fără drept de deducere, după aplicarea pro-rata;',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: 'TVA neexigibilă aferentă livrării de marfă pe baza avizului de expediţie',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 125,
+        number: 154,
+        question: 'Ce semnifică următoarea formulă contabilă: <br />% = 4426 <br />4427 <br />4424',
+        answers: [
+          {
+            id: 'a',
+            answer: 'regularizarea TVA în cazul în care TVA deductibilă este mai mare decât TVA colectată;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'regularizarea TVA în cazul în care TVA colectată este mai mare decât TVA deductibil;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'regularizarea TVA în cazul unei achiziții intracomunitare;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'regularizarea TVA în cazul în care TVA deductibilă este mai mare decât TVA de dedus ca urmare a aplicării pro-rata.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 126,
+        number: 155,
+        question: 'Se cunosc următoarele informaţii despre stocul de mărfuri la 31.12.N: costul mărfurilor aflate în stoc 50.000 lei, preţul de vânzare estimat 60.000 lei, costuri estimate necesare vânzării mărfurilor 20.000 lei. În situaţiile financiare mărfurile vor fi prezentate la valoarea:',
+        answers: [
+          {
+            id: 'a',
+            answer: '20.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '50.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '60.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '40.000 lei.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 127,
+        number: 156,
+        question: 'Se cunosc următoarele informaţii despre stocul de mărfuri la 31.12.N: costul mărfurilor aflate în stoc 50.000 lei, preţul de vânzare estimat 60.000 lei, costuri estimate necesare vânzării mărfurilor 20.000 lei. În ianuarie anul următor acestea se vând la preţul de vânzare de 52.000 lei. În situaţiile financiare mărfurile vor fi prezentate la valoarea:',
+        answers: [
+          {
+            id: 'a',
+            answer: '20.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '50.000 lei;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '52.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '40.000 lei.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 128,
+        number: 157,
+        question: 'Se cunosc următoarele informaţii despre stocul de mărfuri la 31.12.N: costul mărfurilor aflate în stoc 50.000 lei, preţul de vânzare estimat 60.000 lei, costuri estimate necesare vânzării mărfurilor 10.000 lei. În situaţiile financiare mărfurile vor fi prezentate la valoarea:',
+        answers: [
+          {
+            id: 'a',
+            answer: '20.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '50.000 lei;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '60.000 lei;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '40.000 lei.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 129,
+        number: 158,
+        question: 'Ce semnifică următoarea formulă contabilă: 711 = 331',
+        answers: [
+          {
+            id: 'a',
+            answer: 'înregistrarea vânzării de produse finite;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'înregistrarea producției neterminate la sfârșitul perioadei de gestiune;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'înregistrarea unui plus la inventarierea produselor finite;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'înregistrarea repunerii în producție a producției neterminate.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 130,
+        number: 159,
+        question: 'O entitate economică produce eșarfe. Cumpără mătase albă la prețul de achiziție de 1.200 lei, transport 100 lei, TVA 19%. Dorește să imprime eșarfele cu un model personalizat și pentru patern plătește suma de 50 lei. Trimite mătasea și modelul ales la un atelier specializat în imprimarea țesăturilor și imprimeria facturează suma de 720 lei. Cum se înregistrează corect operațiunea de trimitere a materialului spre imprimare?',
+        answers: [
+          {
+            id: 'a',
+            answer: '351 Materii şi materiale aflate la terţi = 301 Materii prime 1.350',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '351 Materii şi materiale aflate la terţi = 301 Materii prime 1.300',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '301 Materii prime = 351 Materii şi materiale aflate la terţi 1.200',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '301 Materii prime = 351 Materii şi materiale aflate la terţi 1.300',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 131,
+        number: 160,
+        question: 'O entitate economică produce eșarfe. Cumpără mătase albă la prețul de achiziție de 1.200 lei, transport 100 lei, TVA 19%. Dorește să imprime eșarfele cu un model personalizat și pentru patern plătește suma de 50 lei. Trimite mătasea și modelul ales la un atelier specializat în imprimarea țesăturilor și imprimeria facturează suma de 720 lei (fără TVA). Cum se înregistrează corect factura primită de la imprimerie?',
+        answers: [
+          {
+            id: 'a',
+            answer: '301 Materii prime = 351 Materii şi materiale aflate la terţi 720',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '301 Materii prime = 401 Furnizori 720',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '301 Materii prime = 401 Furnizori 1.300',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '301 Materii prime = 351 Materii şi materiale aflate la terţi 2.020',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 132,
+        number: 161,
+        question: 'O entitate economică produce eșarfe. Cumpără mătase albă la prețul de achiziție de 1.200 lei, transport 100 lei, TVA 19%. Dorește să imprime eșarfele cu un model personalizat și pentru patern plătește suma de 50 lei. Trimite mătasea și modelul ales la un atelier specializat în imprimarea țesăturilor și imprimeria facturează suma de 720 lei (fără TVA). Cum se înregistrează corect returul materialelor de la imprimerie?',
+        answers: [
+          {
+            id: 'a',
+            answer: '351 Materii şi materiale aflate la terţi = 301 Materii prime 1.350',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '351 Materii şi materiale aflate la terţi = 301 Materii prime 1.300',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '301 Materii prime = 351 Materii şi materiale aflate la terţi 1.350',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '301 Materii prime = 351 Materii şi materiale aflate la terţi 2.020',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 133,
+        number: 162,
+        question: 'Producția neterminată la sfârșitul unei perioade de gestiune, în valoare de 800 lei se înregistrează prin formula contabilă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '341 Semifabricate = 711 Venituri aferente costurilor… 800',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '711 Venituri aferente costurilor… = 331 Produse în curs de execuție 800',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '331 Produse în curs de execuție = 401 Furnizori 800',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '331 Produse în curs de execuție = 711 Venituri eferente costurilor… 800',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 134,
+        number: 165,
+        question: 'Cu ocazia inventarierii, se constată plusuri în gestiunea de materii prime în valoare de 660 lei. Alegeți înregistrarea corectă.',
+        answers: [
+          {
+            id: 'a',
+            answer: '301 „Materii prime” = 601 „Cheltuieli cu materiile prime” 660',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '301 „Materii prime” = 601 „Cheltuieli cu materiile prime” 660',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '601 „Cheltuieli cu materiile prime” = 301 „Materii prime” 660',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '301 „Materii prime” = 758 „Alte venituri din exploatare” 660',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 135,
+        number: 166,
+        question: 'O entitate economică produce cozonaci. La inceputul lunii martie calculeaza costul standard de 5 lei / kg. La sfarsitul lunii, costul efectiv este de 5,2 lei/ kg. Stiind ca s-au obtinut 100 Kg cozonac, diferenta dintre costul standard si costul efectiv se inregistreaza prin formula contabila:',
+        answers: [
+          {
+            id: 'a',
+            answer: '711 = 345 20',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '345 = 711 20',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '711 = 348 20',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '348 = 711 20',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 136,
+        number: 167,
+        question: 'Pentru produse finite, o firmă stabileste costul standard de 2,200 lei. Se cunoasc următoarele informații: s-au consumat materii prime la costul de achiziție de 1.000 lei, mat consumabile 200 lei, salarii 500 lei, din care muncitori direct productivi 150 lei, amortizare 75 lei, ch desfacere 100 lei, alte ch indirecte repartizate rational 600 lei. Sa se calculeze costul efectiv de productie.',
+        answers: [
+          {
+            id: 'a',
+            answer: '2.475 lei',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '2.125 lei',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '2.025 lei',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '2.275 lei',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 137,
+        number: 168,
+        question: 'Pentru produse finite, o firmă stabileste costul standard de 2.200 lei. Se cunoasc următoarele informații: s-au consumat materii prime la costul de achiziție de 1.000 lei, mat consumabile 200 lei, salarii 500 lei, din care muncitori direct productivi 150 lei, amortizare 75 lei, ch desfacere 100 lei, alte ch indirecte repartizate rational 600 lei. Diferența dintre costul standard si costul efectiv se înregistrează prin formula:',
+        answers: [
+          {
+            id: 'a',
+            answer: '711 = 345',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '345 = 711',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '711 = 348',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '348 = 711',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 138,
+        number: 170,
+        question: 'O societate deţine în stoc la 31 decembrie N 1.000 bucăţi produse finite al căror cost de producţie efectiv este de 3 lei/buc. Preţul de piaţă al produselor al sfârşitul exerciţiului N este de 3,20 lei/buc. Cheltuielile necesare pentru realizarea vânzării reprezintă 150 lei. Care este valoarea la care se vor prezenta produsele finite în bilanţul de la 31 XII N?',
+        answers: [
+          {
+            id: 'a',
+            answer: ' 3.000 lei.',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '3.200 lei.',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '2.850 lei.',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '3.050 lei.',
+            isTrue: false
+          }
+        ]
+      },
     ]
   },
   {
