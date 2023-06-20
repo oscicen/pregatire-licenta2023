@@ -3850,6 +3850,7 @@ export const data = [
       {
         id: 5,
         number: 6,
+        important: 2,
         question: 'Modelele de date se pot clasifica in:',
         answers: [
           {
@@ -3877,6 +3878,7 @@ export const data = [
       {
         id: 6,
         number: 7,
+        important: 3,
         question: 'Bazele de date sunt organizate pe urmatoarele trei niveluri:',
         answers: [
           {
@@ -3904,6 +3906,7 @@ export const data = [
       {
         id: 7,
         number: 8,
+        important: 3,
         question: 'Notiunea de tuplu reprezinta:',
         answers: [
           {
@@ -3931,6 +3934,7 @@ export const data = [
       {
         id: 8,
         number: 9,
+        important: 2,
         question: 'In bazele de date ACCESS expresia modelului de date folosit este reprezentata de:',
         answers: [
           {
@@ -3958,6 +3962,7 @@ export const data = [
       {
         id: 9,
         number: 10,
+        important: 3,
         question: 'In bazele de date ACCESS obiectele care permit afisarea (tiparirea) rezultatelor prelucrarii datelor in format de editare se numesc:',
         answers: [
           {
@@ -3985,6 +3990,7 @@ export const data = [
       {
         id: 10,
         number: 11,
+        important: 2,
         question: 'Tabelele unei baze de date relaţionale se mai numesc si:',
         answers: [
           {
@@ -4012,6 +4018,7 @@ export const data = [
       {
         id: 11,
         number: 12,
+        important: 2,
         question: 'SQL reprezinta un limbaj:',
         answers: [
           {
@@ -4039,6 +4046,7 @@ export const data = [
       {
         id: 12,
         number: 13,
+        important: 2,
         question: 'Intr-o instructiune SQL numele sursei de date (tabele si/sau interogari) este specificat de clauza:',
         answers: [
           {
@@ -4066,6 +4074,7 @@ export const data = [
       {
         id: 13,
         number: 14,
+        important: 3,
         question: 'Conceptul de bază de date face referire la:',
         answers: [
           {
@@ -4093,6 +4102,7 @@ export const data = [
       {
         id: 14,
         number: 15,
+        important: 2,
         question: 'Între tabelele unei baze de date putem stabili:',
         answers: [
           {
@@ -4120,6 +4130,7 @@ export const data = [
       {
         id: 15,
         number: 16,
+        important: 2,
         question: 'O cheie primară reprezintă:',
         answers: [
           {
@@ -4147,6 +4158,7 @@ export const data = [
       {
         id: 16,
         number: 17,
+        important: 2,
         question: 'O cheie primară reprezintă:',
         answers: [
           {
@@ -4174,6 +4186,7 @@ export const data = [
       {
         id: 17,
         number: 18,
+        important: 3,
         question: 'O cheie primară referită printr-o legătură dintr-o altă tabelă reprezintă pentru tabela din care se referă:',
         answers: [
           {
@@ -4201,6 +4214,7 @@ export const data = [
       {
         id: 18,
         number: 19,
+        important: 1,
         question: 'Interfata grafica din ACCESS care permite construirea cererilor de interogare se numeste:',
         answers: [
           {
@@ -4282,6 +4296,7 @@ export const data = [
       {
         id: 21,
         number: 22,
+        important: 2,
         question: 'In ACCESS exista urmatoarele tipuri de interogari:',
         answers: [
           {
@@ -4309,6 +4324,7 @@ export const data = [
       {
         id: 22,
         number: 23,
+        important: 1,
         question: 'Conceptul de concurenţă face referire la:',
         answers: [
           {
@@ -4336,6 +4352,7 @@ export const data = [
       {
         id: 23,
         number: 24,
+        important: 3,
         question: 'Pentru realizarea interogarilor in ACCESS se folosesc obiectele:',
         answers: [
           {
@@ -4390,6 +4407,7 @@ export const data = [
       {
         id: 25,
         number: 26,
+        important: 4,
         question: 'Valoarea NULL pentru o celulă aparţinând unei tabele dintr-o bază de date semnifică faptul că:',
         answers: [
           {
@@ -4470,7 +4488,7 @@ export const data = [
       },
       {
         id: 28,
-        number: 19,
+        number: 29,
         question: 'Selecţia reprezintă un:',
         answers: [
           {
@@ -4498,6 +4516,7 @@ export const data = [
       {
         id: 29,
         number: 30,
+        important: 1,
         question: 'SQL reprezintă un:',
         answers: [
           {
@@ -4525,6 +4544,7 @@ export const data = [
       {
         id: 30,
         number: 31,
+        important: 3,
         question: 'Efectul executării instrucţiunii SQL: Delete Client where Cod like “A*”este:',
         answers: [
           {
@@ -4552,6 +4572,7 @@ export const data = [
       {
         id: 31,
         number: 32,
+        important: 3,
         question: 'Efectul executării instrucţiunii SQL: Delete Client este:',
         answers: [
           {
@@ -4579,6 +4600,7 @@ export const data = [
       {
         id: 32,
         number: 33,
+        important: 3,
         question: 'Efectul executării instrucţiunii SQL: Delete Client where Cod not in (select CodClient from Facturi) este:',
         answers: [
           {
@@ -4606,6 +4628,7 @@ export const data = [
       {
         id: 33,
         number: 34,
+        important: 3,
         question: 'Efectul executării instrucţiunii SQL: Delete Client where Cod in (select CodClient from Facturi group by CodClient having count(*)>3) este:',
         answers: [
           {
@@ -4633,6 +4656,7 @@ export const data = [
       {
         id: 34,
         number: 35,
+        important: 3,
         question: 'Efectul executării instrucţiunii SQL: Delete Client where Cod like “A*” and year(DataAdaugare)>year(Now())-1 este:',
         answers: [
           {
@@ -4660,6 +4684,7 @@ export const data = [
       {
         id: 35,
         number: 36,
+        important: 1,
         question: 'Efectul executării instrucţiunii SQL: Select * from Client este:',
         answers: [
           {
@@ -4741,6 +4766,7 @@ export const data = [
       {
         id: 38,
         number: 39,
+        important: 1,
         question: 'Instructiunea SQL: SELECT * from Produse where pret is not null; realizeaza:',
         answers: [
           {
@@ -4795,6 +4821,7 @@ export const data = [
       {
         id: 40,
         number: 41,
+        important: 1,
         question: 'Pentru afisarea tuturor produselor a caror denumire incepe cu TV se foloseste urmatoarea instructiune:',
         answers: [
           {
@@ -4822,6 +4849,7 @@ export const data = [
       {
         id: 41,
         number: 42,
+        important: 3,
         question: 'Cheia externa a unei tabele serveste la:',
         answers: [
           {
@@ -4957,6 +4985,7 @@ export const data = [
       {
         id: 46,
         number: 47,
+        important: 3,
         question: 'În MS Access o interogare permite:',
         answers: [
           {
@@ -5011,6 +5040,7 @@ export const data = [
       {
         id: 48,
         number: 49,
+        important: 3,
         question: 'În MS Access formularele sunt utilizate pentru:',
         answers: [
           {
@@ -5173,6 +5203,7 @@ export const data = [
       {
         id: 54,
         number: 55,
+        important: 2,
         question: 'Componenta Form Wizard serveste la:',
         answers: [
           {
@@ -5227,6 +5258,7 @@ export const data = [
       {
         id: 56,
         number: 57,
+        important: 1,
         question: 'În MS Access rapoartele au la bază:',
         answers: [
           {
@@ -5254,6 +5286,7 @@ export const data = [
       {
         id: 57,
         number: 58,
+        important: 3,
         question: 'Valoarea NULL modeleaza:',
         answers: [
           {
@@ -5343,6 +5376,7 @@ export const data = [
       {
         id: 0,
         number: 1,
+        important: 2,
         question: 'Care definiţie este corectă:',
         answers: [
           {
@@ -5370,6 +5404,7 @@ export const data = [
       {
         id: 1,
         number: 2,
+        important: 2,
         question: 'Sistemul informaţional reprezintă:',
         answers: [
           {
@@ -5397,6 +5432,7 @@ export const data = [
       {
         id: 2,
         number: 3,
+        important: 3,
         question: 'Identificaţi afirmaţia falsă:',
         answers: [
           {
@@ -5424,6 +5460,7 @@ export const data = [
       {
         id: 3,
         number: 4,
+        important: 3,
         question: 'Sistemul care se ocupă cu implementarea si ducerea la bun sfârsit a strategiei organizatiei, este:',
         answers: [
           {
@@ -5451,6 +5488,7 @@ export const data = [
       {
         id: 4,
         number: 5,
+        important: 2,
         question: 'Un sistem informatic este:',
         answers: [
           {
@@ -5559,6 +5597,7 @@ export const data = [
       {
         id: 8,
         number: 9,
+        important: 2,
         question: 'Un organism economic poate fi abordat în vederea proiectării într-o manieră:',
         answers: [
           {
@@ -5586,6 +5625,7 @@ export const data = [
       {
         id: 9,
         number: 10,
+        important: 3,
         question: 'Selectaţi care dintre etapele urmatoare nu se regăsesc printre cele propuse de J. De Rosnay în abordarea sistemică:',
         answers: [
           {
@@ -5613,6 +5653,7 @@ export const data = [
       {
         id: 10,
         number: 11,
+        important: 3,
         question: 'Sunt metode de proiectare:',
         answers: [
           {
@@ -5667,6 +5708,7 @@ export const data = [
       {
         id: 12,
         number: 13,
+        important: 1,
         question: 'Proiectarea unui sistem informatic poate fi abordată:',
         answers: [
           {
@@ -5694,6 +5736,7 @@ export const data = [
       {
         id: 13,
         number: 14,
+        important: 1,
         question: 'Etapele ciclului de dezvoltare a sistemelor informatice de gestiune sunt:',
         answers: [
           {
@@ -5721,6 +5764,7 @@ export const data = [
       {
         id: 14,
         number: 15,
+        important: 3,
         question: 'Procesul de outsourcing implică următorul fapt:',
         answers: [
           {
@@ -5748,6 +5792,7 @@ export const data = [
       {
         id: 15,
         number: 16,
+        important: 1,
         question: 'Mentenanţa unui sistem reprezintă:',
         answers: [
           {
@@ -5775,6 +5820,7 @@ export const data = [
       {
         id: 16,
         number: 17,
+        important: 1,
         question: 'Ciclurile de bază ale proiectării unui sistem informatic sunt:',
         answers: [
           {
@@ -5802,6 +5848,7 @@ export const data = [
       {
         id: 17,
         number: 18,
+        important: 1,
         question: 'Care din afirmaţiile următoare sunt corecte:',
         answers: [
           {
@@ -5937,6 +5984,7 @@ export const data = [
       {
         id: 22,
         number: 23,
+        important: 2,
         question: 'Să se specifice criteriile pe care un concept trebuie să le îndeplinească pentru a ficonsiderat entitate în cadrul unui MCD:',
         answers: [
           {
@@ -5964,6 +6012,7 @@ export const data = [
       {
         id: 23,
         number: 24,
+        important: 3,
         question: 'Metoda MERISE este o metoda de proiectare:',
         answers: [
           {
@@ -5991,6 +6040,7 @@ export const data = [
       {
         id: 24,
         number: 25,
+        important: 3,
         question: 'Pentru trecerea de la MCD la MRD , fiecărui atribut din MCD îi corespunde în MRD următorul concept:',
         answers: [
           {
@@ -6018,6 +6068,7 @@ export const data = [
       {
         id: 25,
         number: 26,
+        important: 3,
         question: 'Fiecărui identificator din MCD îi corespunde în MRD, conform regulilor de conversie, unul dintre următoarele concepte :',
         answers: [
           {
@@ -6045,6 +6096,7 @@ export const data = [
       {
         id: 26,
         number: 27,
+        important: 3,
         question: 'În MRD, o tabelă se mai numește:',
         answers: [
           {
@@ -6072,6 +6124,7 @@ export const data = [
       {
         id: 27,
         number: 28,
+        important: 2,
         question: 'Fiecărei asocieri din MCD îi corespunde în MRD, conform regulilor de conversie, următorul concept:',
         answers: [
           {
@@ -6126,6 +6179,7 @@ export const data = [
       {
         id: 29,
         number: 30,
+        important: 1,
         question: 'Din punct de vedere al modului de reprezentare a informaţiei, atributele pot fi:',
         answers: [
           {
@@ -6153,6 +6207,7 @@ export const data = [
       {
         id: 30,
         number: 31,
+        important: 1,
         question: 'Identificatorul entitatii “Factura” descrisă prin atributele număr_factura , data_factura , cod_produs, cantitate, preţ, este :',
         answers: [
           {
@@ -6207,6 +6262,7 @@ export const data = [
       {
         id: 32,
         number: 33,
+        important: 1,
         question: 'Din punct de vedere al valorilor pe care le pot lua la un moment dat, atributele pot fi:',
         answers: [
           {
@@ -6234,6 +6290,7 @@ export const data = [
       {
         id: 33,
         number: 34,
+        important: 1,
         question: 'Următoarea afirmaţie este corectă:',
         answers: [
           {
@@ -6261,6 +6318,7 @@ export const data = [
       {
         id: 34,
         number: 35,
+        important: 3,
         question: 'Din punct de vedere al rolului pe care îl îndeplineşte atributul respectiv în cadrul modelului, atributele pot fi:',
         answers: [
           {
@@ -6288,6 +6346,7 @@ export const data = [
       {
         id: 35,
         number: 36,
+        important: 3,
         question: 'În cadrul MERISE pentru descrierea statică a modelului se utilizează:',
         answers: [
           {
@@ -6315,6 +6374,7 @@ export const data = [
       {
         id: 36,
         number: 37,
+        important: 3,
         question: 'Identificaţi afirmaţia falsă:',
         answers: [
           {
@@ -6342,6 +6402,7 @@ export const data = [
       {
         id: 37,
         number: 38,
+        important: 3,
         question: 'Metodele de proiectare sistemice tratează modelul datelor din perspectiva:',
         answers: [
           {
@@ -6423,6 +6484,7 @@ export const data = [
       {
         id: 40,
         number: 41,
+        important: 3,
         question: 'Care din afirmaţiile următoare sunt corecte, în cazul ciclului de abstractizare:',
         answers: [
           {
@@ -6504,6 +6566,7 @@ export const data = [
       {
         id: 43,
         number: 44,
+        important: 3,
         question: 'Trecerea de la MCD la MLD presupune că fiecarei entităti din MCD, îi corespunde, în MLD, următorul concept:',
         answers: [
           {
@@ -6531,6 +6594,7 @@ export const data = [
       {
         id: 44,
         number: 45,
+        important: 3,
         question: 'Din perspectivă istorică, metodele de proiectare a unui sistem informatic au cunoscut următoarele etape:',
         answers: [
           {
@@ -6558,6 +6622,7 @@ export const data = [
       {
         id: 45,
         number: 46,
+        important: 3,
         question: 'În MLD, o linie dintr-o tabelă se numește:',
         answers: [
           {
@@ -6585,6 +6650,7 @@ export const data = [
       {
         id: 46,
         number: 47,
+        important: 3,
         question: 'Implementarea reprezintă:',
         answers: [
           {
@@ -6612,6 +6678,7 @@ export const data = [
       {
         id: 47,
         number: 48,
+        important: 1,
         question: 'Identificaţi afirmaţia falsă:',
         answers: [
           {
@@ -6639,6 +6706,7 @@ export const data = [
       {
         id: 48,
         number: 49,
+        important: 2,
         question: 'Mentenanţa reprezintă:',
         answers: [
           {
@@ -6666,6 +6734,7 @@ export const data = [
       {
         id: 49,
         number: 50,
+        important: 3,
         question: 'Separarea datelor de prelucrări a avut loc odată cu apariţia metodelor de proiectare:',
         answers: [
           {
@@ -6693,6 +6762,7 @@ export const data = [
       {
         id: 50,
         number: 51,
+        important: 2,
         question: 'Metodele de proiectare sistemice tratează modelul prelucrărilor din perspectiva:',
         answers: [
           {
@@ -6720,6 +6790,7 @@ export const data = [
       {
         id: 51,
         number: 52,
+        important: 3,
         question: 'Metoda UML este o metodă de proiectare:',
         answers: [
           {
@@ -6747,6 +6818,7 @@ export const data = [
       {
         id: 52,
         number: 53,
+        important: 1,
         question: 'Care din afirmaţiile următoare sunt corecte, în cazul metodelor de proiectare orientate-obiect:',
         answers: [
           {
@@ -6774,6 +6846,7 @@ export const data = [
       {
         id: 53,
         number: 54,
+        important: 1,
         question: 'Identificaţi afirmaţia falsă, în cazul abordării top-down:',
         answers: [
           {
@@ -6801,6 +6874,7 @@ export const data = [
       {
         id: 54,
         number: 55,
+        important: 2,
         question: 'UML reprezintă acronimul pentru:',
         answers: [
           {
@@ -6828,6 +6902,7 @@ export const data = [
       {
         id: 55,
         number: 56,
+        important: 1,
         question: 'Identificaţi afirmaţia falsă:',
         answers: [
           {
@@ -6855,6 +6930,7 @@ export const data = [
       {
         id: 56,
         number: 57,
+        important: 3,
         question: 'Restricţiile cu privire la rolurile asumate de o entitate în diferitele asocieri în care este implicată, sunt:',
         answers: [
           {
@@ -6882,6 +6958,7 @@ export const data = [
       {
         id: 57,
         number: 58,
+        important: 3,
         question: 'Restricţiile asocierilor sunt:',
         answers: [
           {
@@ -6909,6 +6986,7 @@ export const data = [
       {
         id: 58,
         number: 59,
+        important: 3,
         question: 'Modelarea unei asocieri de tipul „unu la mulţi” se realizează astfel: ',
         answers: [
           {
@@ -6936,6 +7014,7 @@ export const data = [
       {
         id: 59,
         number: 60,
+        important: 3,
         question: 'Modelarea unei asocieri de tipul „mulţi la mulţi” se realizează astfel:',
         answers: [
           {

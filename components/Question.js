@@ -22,9 +22,20 @@ const Question = ({ question, goNext, isList }) => {
     setGuess(answerId === guess ? '' : answerId);
   }
 
+  let importantText;
+
+  if (question?.important === 3) {
+    importantText = "Da sigur!"
+  } else if (question?.important === 2) {
+    importantText = "Foarte Important!"
+  } else {
+    importantText = "Important!"
+  }
+
   return (
     <div className={classNames(styles.container, { [styles.list]: isList })}>
-      <Box w='100%' borderRadius='md' borderWidth='1px' p={4}>
+      <Box w='100%' borderRadius='md' borderWidth='1px' p={4} className={classNames({ [styles.important]: question?.important })}>
+        { question?.important && <div className={ styles.badge }>{ importantText }</div> }
         <h3 dangerouslySetInnerHTML={{ __html: `${ question.number }. ${ question.question }` }} />
         <div className={ styles.answers }>
           { question.answers.map(answer => (
