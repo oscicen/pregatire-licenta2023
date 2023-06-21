@@ -38,6 +38,8 @@
 
   .categoryInfo {
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
 
     p {
       font-size: 12px;
@@ -60,8 +62,22 @@
   }
 }
 
-@media screen and (max-width: 671px) {
+.categoryStats {
+  line-height: 24px;
+
+  span {
+    margin-right: 5px;
+    padding: 2px;
+    background: #BEE3F8;
+    border-radius: 3px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .main .actions .stats div span {
     display: none;
+  }
+  .main .categoryInfo {
+    flex-direction: column;
   }
 }

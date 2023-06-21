@@ -3704,6 +3704,1086 @@ export const data = [
           }
         ]
       },
+      {
+        id: 139,
+        number: 171,
+        question: '. Se achiziționează materii prime la prețul de achiziție de 5.000 lei, reducere comerciala 4%, TVA 19%., transport 200 lei, costuri privind descărcarea 50 lei, depozitare după ce au fost luate în primire, înainte de a fi date in producție 100 lei. Costul de achiziție este de:',
+        answers: [
+          {
+            id: 'a',
+            answer: '5.050 lei',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '6.500 lei',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '5.150 lei',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '4.950 lei',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 140,
+        number: 172,
+        question: 'O entitate economică are o hală de producție închiriată cu o capacitate de producție de 5.000 buc. pe lună și o chirie de 800 lei pe lună. În luna martie se obțin 4.500 buc. produse finite pentru care se cunosc următoarele informații privind costurile: materii prime 1.000 lei, materiale consumabile 200 lei, salarii muncitori direct productivi 300 lei, amortizarea utilajelor din hală 400 lei, consum curent electric 150 lei. Costul de producție este de:',
+        answers: [
+          {
+            id: 'a',
+            answer: '2.730 lei',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '2.050 lei',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '2.770 lei',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '2.450 lei',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 141,
+        number: 173,
+        question: 'Potrivit reglementărilor contabile aprobate prin OMFP 1.802/02014, stocurile sunt depreciate dacă:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'Valoarea lor contabilă este mai mare decât valoarea realizabilă netă',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'Valoarea lor contabilă este mai mică decât valoarea realizabilă netă',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'Valoarea lor contabilă este mai mare decât valoarea recuperabilă',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'Valoarea lor contabilă este mai mică decât valoarea recuperabilă',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 142,
+        number: 174,
+        question: 'Creanţele şi datoriile în valută, precum şi creanţele şi datoriile exprimate în lei, a căror decontare se face în funcţie de cursul unei valute, se evaluează:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'lunar;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'trimestrial;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'la sfârşitul exerciţiului financiar;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'semestrial.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 143,
+        number: 175,
+        question: 'Diferenţele de curs valutar care apar cu ocazia decontării creanţelor şi datoriilor în valută, precum şi cu ocazia evaluării acestora, trebuie recunoscute ca:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'venituri sau cheltuieli din diferenţa de curs valutar;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'alte venituri sau cheltuieli financiare;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'măresc sau diminuează valoarea elementelor care au generat respectivele creanţe sau datorii;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'alte venituri sau cheltuieli de exploatare.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 144,
+        number: 176,
+        question: 'Diferenţele de valoare care apar cu ocazia decontării creanţelor şi datoriilor exprimate în lei, în funcţie de un curs valutar diferit de cel la care au fost înregistrate iniţial, precum şi cu ocazia evaluării acestora, trebuie recunoscute ca:',
+        answers: [
+          {
+            id: 'a',
+            answer: 'venituri sau cheltuieli din diferenţa de curs valutar;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'alte venituri sau cheltuieli financiare;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'măresc sau diminuează valoarea elementelor care au generat respectivele creanţe sau datorii;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'alte venituri sau cheltuieli de exploatare.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 145,
+        number: 177,
+        question: 'În luna decembrie, anul N, se primeşte factura pentru chiria unui spaţiu comercial aferentă lunii ianuarie anul N + 1 în valoare de 700 lei. Care este formula contabilă corectă?',
+        answers: [
+          {
+            id: 'a',
+            answer: '471 = 401 700',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '612 = 5121 700',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '612 = 462 700',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '471 = 5121 700',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 146,
+        number: 179,
+        question: 'Ce semnifică următoarea formulă contabilă: 413 = 4111',
+        answers: [
+          {
+            id: 'a',
+            answer: 'vânzarea pe credit comercial a mărfurilor;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'remiterea, către bancă, spre încasare a efectelor comerciale;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'încasarea efectelor comerciale',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'acceptarea efectelor comerciale in vederea stingerii creantelor clienti',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 147,
+        number: 180,
+        question: 'Ce semnifică următoarea formulă contabilă: 419 = 4111',
+        answers: [
+          {
+            id: 'a',
+            answer: 'încasarea avansurilor de la clienţi;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'stingerea creanţei faţă de client prin decontarea avansului;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'înregistrarea clienţilor incerţi sau în litigiu;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'scoaterea din gestiune a clienţilor insolvabili.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 148,
+        number: 181,
+        question: 'Ce semnifică următoarea formulă contabilă: 667 = 4111',
+        answers: [
+          {
+            id: 'a',
+            answer: 'vânzarea mărfurilor;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'înregistrarea scontului acordat;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'încasarea contravalorii mărfurilor vândute;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'scoaterea din evidenţa contabilă a scontului.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 149,
+        number: 182,
+        question: 'Ce semnifică următoarea formulă contabilă: 401 = 403',
+        answers: [
+          {
+            id: 'a',
+            answer: 'acceptarea unui efect comercial de la client;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'emitere unui efect comercial către furnizor;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'avans primit de la clienţi;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'avans plătit furnizorului.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 150,
+        number: 183,
+        question: 'Ce semnifică următoarea formulă contabilă: 5113 = 413',
+        answers: [
+          {
+            id: 'a',
+            answer: 'remiterea unui efect comercial spre încasare;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'încasare unui efect comercial;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'remiterea unui efect comercial spre scontare;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'acceptarea unui efect comercial de la clienţi.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 151,
+        number: 184,
+        question: 'Obligaţia de plată a impozitului pe clădiri se înregistrează prin formula contabilă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '635 = 446',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '635 = 444',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '635 = 448',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '635 = 5121',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 152,
+        number: 185,
+        question: 'Ce semnifică următoarea formulă contabilă: 691 = 441',
+        answers: [
+          {
+            id: 'a',
+            answer: 'impozitul pe profit plătit în timpul perioadei de gestiune;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'constituirea obligaţiei de plată reprezentând impozitul pe profit;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'anularea impozitului pe profit constituit în plus în timpul perioadei de gestiune;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'impozitul pe salarii datorat.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 153,
+        number: 186,
+        question: 'Se prezintă înregistrarea contabilă: Cont X = 4111 15.000 Știind că aceasta reprezintă înregistrarea ca urmare a informației primită de la un client că a intrat în imposibilitate de plată cu probabilitatea de a-și reveni din punct de vedere economic, contul X este:',
+        answers: [
+          {
+            id: 'a',
+            answer: '654',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '4118',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '491',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '6814',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 154,
+        number: 187,
+        question: 'Situaţia creanţelor clienţi, la o firmă neînregistrată în scopuri de TVA, la sfârşitul anului N este: client A 1.000 lei probabilitate de încasare 55%; client B 1.300 lei, probabilitate de încasare 30%; client C 1.500 lei, probabilitatea de neîncasare 30%. Care este mărimea ajustărilor pentru deprecierea creanţelor ce pot fi constituite la sfârşitul anului N?',
+        answers: [
+          {
+            id: 'a',
+            answer: '2.294 lei;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '2.710 lei;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '1.810 lei;',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '1.920 lei.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 155,
+        number: 188,
+        question: 'Pentru asigurarea unui mijloc de transport încheiată la sfârșitul lunii martie, pentru o perioadă de 12 luni, în valoare de 1.200 lei, în luna septembrie se face înregistrarea:',
+        answers: [
+          {
+            id: 'a',
+            answer: '613 = 401 100',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '471 = 613 100',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '613 = 471 100',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: 'Nu se impune nicio înregistrare în contabilitatea lunii septembrie',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 156,
+        number: 189,
+        question: 'Avansul în sumă de 1.800 lei, achitat unui firme neînregistrată în scopuri de TVA, în vederea achiziției de mărfuri se înregistrează prin formula contabilă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '471 = 5121 1.800',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '5121 = 401 1.800',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '409 = 5121 1.800',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '5121 = 472 1.800',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 157,
+        number: 190,
+        question: 'Alegeţi formula contabilă corectă, în situaţia achitării avansului din salarii în valoare de 2.600 lei',
+        answers: [
+          {
+            id: 'a',
+            answer: '5311 = 425 2.600',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '421 = 5311 2.600',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '425 = 421 2.600',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '425 = 5311 2.600',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 158,
+        number: 191,
+        question: 'Ce semnifică următoarea formulă contabilă: 646 = 436',
+        answers: [
+          {
+            id: 'a',
+            answer: 'înregistrarea contribuției asiguratorii pentru muncă datorată de entitate;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: 'contribuţia de asigurări sociale;',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'contribuţia de asigurări de sociale de sănătate;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'înregistrarea contribuției asiguratorii pentru muncă datorată de salariaţi.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 159,
+        number: 192,
+        question: 'Ce semnifică următoarea formulă contabilă: 421 = 426',
+        answers: [
+          {
+            id: 'a',
+            answer: 'ajutoare materiale cuvenite salariaţilor;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'avansuri acordate salariaţilor',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'drepturi de personal neridicate, ajunse la scadență;',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: 'decontarea salariilor cuvenite',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 160,
+        number: 193,
+        question: 'Ce semnifică următoarea formulă contabilă: 425 = 5311',
+        answers: [
+          {
+            id: 'a',
+            answer: 'drepturi de personal neridicate ajunse la scadenţă;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'plată avansuri din slarii;',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: 'ajutoare materiale cuvenite salariaţilor;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'înregistrarea unor reţineri din salarii.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 161,
+        number: 194,
+        question: 'Salariile neridicate se înregistrază prin formula contabilă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '426 = 421',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '421 = 426',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '426 = 5121',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: 'Nu se înregistrează',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 162,
+        number: 195,
+        question: 'Contribuția de asigurări sociale de sănătate se înregistrează prin formula contabilă;',
+        answers: [
+          {
+            id: 'a',
+            answer: '4316 = 421',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '421 = 4316',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '6453 = 4316',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '4316 = 5121',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 163,
+        number: 196,
+        question: 'Impozitul pe dividendele distribuite asociaților sau acționarilor se înregistrează prin formula:',
+        answers: [
+          {
+            id: 'a',
+            answer: '457 = 446',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '446 = 457',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '1171 = 446',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '446 = 1171',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 164,
+        number: 197,
+        question: 'Dividendele distribuite asociaților sau acționarilor la hotărâre AGA se înregistrează prin formula contabilă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '457 = 121',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '1171 = 457',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '121 = 457',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '457 = 1171',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 165,
+        number: 198,
+        question: 'La deschiderea unui acreditiv se face înregistrarea:',
+        answers: [
+          {
+            id: 'a',
+            answer: '581 = 512 şi 541 = 581',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '512 = 541',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '541 = 581 şi 512 = 581',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '511 = 541',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 166,
+        number: 199,
+        question: 'Se ridică numerar din bancă 2.500 lei. Alegeţi înregistrarea corectă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '5311 = 5121 2.500',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '5121 = 581 2.500 ',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '581 = 5311 2.500',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '5121 = 5311 2.500',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 167,
+        number: 201,
+        question: 'Contravaloarea altor investiţii pe termen scurt primite cu titlu gratuit se înregistrează prin formula contabilă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '508 = 509',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '508 = 768',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '509 = 508',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '508 = 1068',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 168,
+        number: 203,
+        question: 'Pe 31 decembrie, o entitate economică are, în contul la bancă în euro, 2.000 euro cu o valoare contabilă de 7.440 lei. Cursul oficial de schimb la 31 decembrie este de 3,691 lei/euro. Care este formula contabilă de înregistrare a diferenţei rezultate din evaluarea contului la 31 decem ',
+        answers: [
+          {
+            id: 'a',
+            answer: '665 = 5124 58',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '5124 = 765 58',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '5121 = 5124 58',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '665 = 5121 58',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 169,
+        number: 204,
+        question: 'Pe 31 decembrie, o entitate economică are, în contul la bancă în euro, 2.000 euro cu o valoare contabilă de 9.600 lei. Cursul oficial de schimb la 31 decembrie este de 4,829 lei/euro. Care este formula contabilă de înregistrare a diferenţei rezultate din evaluarea contului la 31 decembrie?',
+        answers: [
+          {
+            id: 'a',
+            answer: '665 = 5124 58',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '5124 = 765 58',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '5121 = 5124 58',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '665 = 5121 58',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 170,
+        number: 205,
+        question: 'Care din urmatoarele formule contabile nu este in concordanta cu explicatiile date?',
+        answers: [
+          {
+            id: 'a',
+            answer: '418 = 707 Vanzare de marfuri conform facturii;',
+            isTrue: true
+          },
+          {
+            id: 'b',
+            answer: '411 = 704 Recunoasterea veniturilor din servicii prestate',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '709 = 4 11 Inregistrarea reducerii comerciale acordata ulterior facturarii initiale.',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '411 = 765 Inregistrarea diferentelor de curs valutar.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 171,
+        number: 206,
+        question: 'Care din urmatoarele formule contabile nu este in concordanta cu explicatiile date?',
+        answers: [
+          {
+            id: 'a',
+            answer: '4111 = 707 Vanzare de marfuri conform facturii;',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '4111 = 704 Recunoasterea veniturilor din servicii prestate',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '4111 = 4118 Inregistrarea clienţilor incerţi.',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '4111 = 765 Inregistrarea diferentelor de curs valutar.',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 172,
+        number: 207,
+        question: 'Care din urmatoarele formule contabile nu este in concordanta cu explicatiile date?',
+        answers: [
+          {
+            id: 'a',
+            answer: '4111 = 704 500 lei Recunoasterea veniturilor din servicii prestate',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '4118 = 4111 500 lei Inregistrarea clienţilor incerţi.',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '4111 = 765 500 lei Inregistrarea diferentelor de curs valutar;',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '4118 = 4111 500 lei Înregistrarea ajustărilor pentru deprecierea clienților incerți.',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 173,
+        number: 208,
+        question: 'O entitate economică are 200 acțiuni pe termen scurt de la firma X cotată la bursă, la valoarea contabilă de 2,200 lei și 320 acțiuni pe termen scurt de la firma Y cotată la bursă, la valoarea contabilă de 3.840 lei. La sfârșitul anului N, valoarea de inventar unitara a acțiunilor firmei X este de 11,5 lei, iar a acțiunilor firmei Y 11,20 lei / acțiune. Considerând analiticele X și Y pentru cele două firme de la care entitatea economică deține acțiuni, alegeți înregistrările corecte care se fac ca urmare a evaluării la inventar.',
+        answers: [
+          {
+            id: 'a',
+            answer: '6864 = 591.Y 256 Și: Pentru acțiunile X valoarea de inventar > valoarea contabilă, diferența nu se înregistrează.',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '6864 = 501.Y 256 Și: Pentru acțiunile X valoarea de inventar > valoarea contabilă, diferența nu se înregistrează.',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '501.X = 768 100 Și 6864 = 591.Y 256',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '501.X = 768 100 Și 668 = 501.Y 256',
+            isTrue: true
+          }
+        ]
+      },
+      {
+        id: 174,
+        number: 209,
+        question: 'În data de 28 ianuarie se prestează un serviciu în valoare de 500 lei, TVA 19%, pentru contravaloarea căruia se acceptă un bilet la ordin scadent peste 15 zile. La scadență se remite băncii spre încasare. Alegeți formula contabilă corectă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '4111 = 5113 595',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '5113 = 413 595',
+            isTrue: true
+          },
+          {
+            id: 'c',
+            answer: '413 = 5121 595',
+            isTrue: false
+          },
+          {
+            id: 'd',
+            answer: '5113 = 5121 595',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 175,
+        number: 211,
+        question: 'Pe data de 30 martie, se achită cu cardul (prin POS) contribuția asiguratorie pentru muncă în sumă de 250 lei. Alegeți formula corectă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '646 = 5121 250',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '436 = 5121 250',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '436 = 5125 250',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '5125 = 5121 250',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 176,
+        number: 212,
+        question: 'Pe data de 2 aprilie se primește extrasul de cont care atestă decontarea achitării prin POS la Trezorerie a contribuției asiguratorii pentru muncă în valoare de 250 lei. Alegeți formula corectă:',
+        answers: [
+          {
+            id: 'a',
+            answer: '646 = 5121 250',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '436 = 5121 250',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '5125 = 5121 250',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '646 = 5125 250',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 177,
+        number: 213,
+        question: 'La sfârșitul exercițiului financiar N, avansul de trezorerie în sumă de 1.100 lei acordat unui salariat nu a fost justificat. Ce trebuie să facă contabilul înaninte de întocmirea situațiilor financiare la 31.12.N?',
+        answers: [
+          {
+            id: 'a',
+            answer: 'să facă un decont pentru suma reprezentând avansul de trezorerie',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: 'să înregistreze: 473 = 542 1.100',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: 'să înregistreze 4282 = 542 1.100',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: 'nu trebuie să facă nimic, așteaptă ca salariatul să justifice avansul',
+            isTrue: false
+          }
+        ]
+      },
+      {
+        id: 178,
+        number: 214,
+        question: 'O entitate economică are 200 acțiuni pe termen scurt de la firma X cotată la bursă, la valoarea contabilă de 2,200 lei și 320 acțiuni pe termen scurt de la firma Y necotată la bursă, la valoarea contabilă de 3.840 lei. La sfârșitul anului N, valoarea de inventar unitara a acțiunilor firmei X este de 11,5 lei, iar a acțiunilor firmei Y 11,20 lei / acțiune. Considerând analiticele X și Y pentru cele două firme de la care entitatea economică deține acțiuni, alegeți înregistrările corecte care se fac ca urmare a evaluării la inventar',
+        answers: [
+          {
+            id: 'a',
+            answer: '6864 = 591.Y 256 Și: Pentru acțiunile X valoarea de inventar > valoarea contabilă, diferența nu se înregistrează.',
+            isTrue: false
+          },
+          {
+            id: 'b',
+            answer: '6864 = 501.Y 256 Și: Pentru acțiunile X valoarea de inventar > valoarea contabilă, diferența nu se înregistrează.',
+            isTrue: false
+          },
+          {
+            id: 'c',
+            answer: '501.X = 768 100 Și 6864 = 591.Y 256',
+            isTrue: true
+          },
+          {
+            id: 'd',
+            answer: '501.X = 768 100 Și 668 = 501.Y 256',
+            isTrue: false
+          }
+        ]
+      },
     ]
   },
   {

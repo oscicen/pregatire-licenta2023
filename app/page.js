@@ -16,6 +16,7 @@ import {
 } from '@chakra-ui/react'
 
 import Question from '@/components/Question'
+import CategoryStats from '@/components/CategoryStats'
 import { data } from '@/db/data'
 
 import styles from './page.module.scss'
@@ -156,8 +157,11 @@ export default function Home() {
       </Modal>
       {category && (
         <div className={styles.categoryInfo}>
-          <h2>{`${category.number}. ${category.category}`}</h2>
-          <p>{category.teacher}</p>
+          <div>
+            <h2>{`${category.number}. ${category.category}`}</h2>
+            <p>{category.teacher}</p>
+          </div>
+          <CategoryStats category={category} />
         </div>
       )}
       {question && <Question question={question} goNext={onNext} />}
