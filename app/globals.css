@@ -95,21 +95,6 @@ a {
 }
 
 nav {
-  display: flex;
-  border-bottom: 1px solid #E2E8F0;
-}
-
-nav a {
-  color: #1A202C;
-  margin-right: 10px;
-  font-size: 14px;
-  padding: 10px 0;
-  display: inline-block;
-  margin-bottom: -1px;
-  border-bottom: 2px solid transparent;
-}
-
-nav a:hover {
-  color: #1A202C;
-  border-bottom: 2px solid blue;
+  margin-top: 10px;
+  width: 100%;
 }
