@@ -161,7 +161,6 @@ export default function Home() {
             <h2>{`${category.number}. ${category.category}`}</h2>
             <p>{category.teacher}</p>
           </div>
-          <CategoryStats category={category} />
         </div>
       )}
       {question && <Question question={question} goNext={onNext} />}
