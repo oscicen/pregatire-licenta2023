@@ -5,7 +5,7 @@ import { Box, Button, ButtonGroup } from '@chakra-ui/react'
 
 import styles from './question.module.scss'
 
-const Question = ({ question, goNext, isList }) => {
+const Question = ({ question, goNext, isList, skipQuestion }) => {
   const [guess, setGuess] = useState('')
   const [check, setCheck] = useState(false)
 
@@ -20,6 +20,12 @@ const Question = ({ question, goNext, isList }) => {
   const onAnswerSelect = (answerId) =>{
     if (isList) return
     setGuess(answerId === guess ? '' : answerId);
+  }
+
+  const onSkip = () => {
+    setGuess('')
+    setCheck(false)
+    skipQuestion()
   }
 
   let importantText;
@@ -55,6 +61,7 @@ const Question = ({ question, goNext, isList }) => {
       </Box>
       { !isList && (
         <ButtonGroup className={styles.actions}>
+          <Button onClick={onSkip}>Treci peste</Button>
           <Button isDisabled={!guess.length} onClick={() => setCheck(true)}>Verifica</Button>
           <Button isDisabled={!check} onClick={onNextQuestion}>Urmatoarea Intrebare</Button>
         </ButtonGroup>

@@ -207,7 +207,7 @@ export default function Home() {
           </div>
         </div>
       )}
-      {question && <Question question={question} goNext={onNext} />}
+      {question && <Question question={question} goNext={onNext} skipQuestion={nextQuestion} />}
     </main>
   )
 }
