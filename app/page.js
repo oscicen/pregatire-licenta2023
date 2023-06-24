@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import classNames from 'classnames'
 import {
   Button,
@@ -20,24 +20,46 @@ import { data } from '@/db/data'
 
 import styles from './page.module.scss'
 
+if (localStorage && !localStorage.getItem('profile')) {
+  localStorage.setItem('profile', JSON.stringify({
+    lsCategoryId: 0,
+    lsQuestionsId: Array.from(Array(data[0].questions.length).keys()),
+    lsIsRandom: false,
+    lsStats: {
+      answered: 0,
+      correct: 0
+    }
+  }));
+}
+
+const { lsCategoryId, lsQuestionsId, lsIsRandom, lsStats } = JSON.parse(localStorage.getItem('profile'))
+
 export default function Home() {
-  const [categoryId, setCategoryId] = useState(0)
-  const [questionsId, setQuestionsId] = useState(Object.values([]))
+  const [categoryId, setCategoryId] = useState(lsCategoryId)
+  const [questionsId, setQuestionsId] = useState(lsQuestionsId)
   const [category, setCategory] = useState(null)
   const [question, setQuestion] = useState(null)
-  const [isRandom, setIsRandom] = useState(false)
+  const [isRandom, setIsRandom] = useState(lsIsRandom)
+  const [stats, setStats] = useState(lsStats)
   const [open, setOpen] = useState(false)
-  const [stats, setStats] = useState({ answered: 0, correct: 0 })
+
+  const categoryIdRef = useRef(false)
+  const lsRef = useRef(false)
+  const randomRef = useRef(false)
 
   useEffect(() => {
-    generateQuestionsId()
+    if (categoryIdRef.current) {
+      generateQuestionsId()
+    }
+    categoryIdRef.current = true;
   }, [categoryId])
 
   useEffect(() => {
-    if (questionsId.length) {
+    if (randomRef.current && questionsId.length) {
       const updatedQuestionsId = [...questionsId]
       setQuestionsId(isRandom ? shuffle(updatedQuestionsId) : updatedQuestionsId.sort((a, b) => a - b))
     }
+    randomRef.current = true;
   }, [isRandom])
 
   useEffect(() => {
@@ -46,6 +68,18 @@ export default function Home() {
     setCategory(newCategory)
     setQuestion(newQuestion)
   }, [categoryId, questionsId])
+
+  useEffect(() => {
+    if (lsRef.current) {
+      localStorage.setItem('profile', JSON.stringify({
+        lsCategoryId: categoryId,
+        lsQuestionsId: questionsId,
+        lsIsRandom: isRandom,
+        lsStats: stats
+      }))
+    }
+    lsRef.current = true;
+  }, [categoryId, questionsId, isRandom, stats])
 
   const generateQuestionsId = () => {
     const ids = Array.from(Array(data[categoryId].questions.length).keys())
