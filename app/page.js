@@ -33,7 +33,7 @@ const defaultProfile = {
 
 export default function Home() {
   const [categoryId, setCategoryId] = useState(0)
-  const [questionsId, setQuestionsId] = useState([0])
+  const [questionsId, setQuestionsId] = useState([])
   const [category, setCategory] = useState(null)
   const [question, setQuestion] = useState(null)
   const [isRandom, setIsRandom] = useState(false)
@@ -59,6 +59,13 @@ export default function Home() {
       Cookies.set('profile', JSON.stringify(defaultProfile), { expires: 7 })
     }
   }, []);
+
+  useEffect(() => {
+    // Quick fix
+    if (!questionsId.length) {
+      generateQuestionsId()
+    }
+  }, [])
 
   useEffect(() => {
     if (didMountRef.current) { 
