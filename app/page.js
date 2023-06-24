@@ -20,16 +20,18 @@ import { data } from '@/db/data'
 
 import styles from './page.module.scss'
 
-if (localStorage && !localStorage.getItem('profile')) {
-  localStorage.setItem('profile', JSON.stringify({
-    lsCategoryId: 0,
-    lsQuestionsId: Array.from(Array(data[0].questions.length).keys()),
-    lsIsRandom: false,
-    lsStats: {
-      answered: 0,
-      correct: 0
-    }
-  }));
+if (typeof window !== 'undefined') {
+  if (!localStorage.getItem('profile')) {
+    localStorage.setItem('profile', JSON.stringify({
+      lsCategoryId: 0,
+      lsQuestionsId: Array.from(Array(data[0].questions.length).keys()),
+      lsIsRandom: false,
+      lsStats: {
+        answered: 0,
+        correct: 0
+      }
+    }));
+  }
 }
 
 const { lsCategoryId, lsQuestionsId, lsIsRandom, lsStats } = JSON.parse(localStorage.getItem('profile'))
