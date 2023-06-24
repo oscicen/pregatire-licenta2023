@@ -20,9 +20,25 @@ import { data } from '@/db/data'
 
 import styles from './page.module.scss'
 
-if (typeof window !== 'undefined') {
-  if (!localStorage.getItem('profile')) {
-    localStorage.setItem('profile', JSON.stringify({
+
+if (typeof window !== 'undefined' && !localStorage.getItem('profile')) {
+  localStorage.setItem('profile', JSON.stringify({
+    lsCategoryId: 0,
+    lsQuestionsId: Array.from(Array(data[0].questions.length).keys()),
+    lsIsRandom: false,
+    lsStats: {
+      answered: 0,
+      correct: 0
+    }
+  }))
+}
+
+// Fix Next.js
+const getLocalStorage = () => {
+  if (typeof window !== 'undefined') {
+    return JSON.parse(localStorage.getItem('profile'))
+  } else {
+    return {
       lsCategoryId: 0,
       lsQuestionsId: Array.from(Array(data[0].questions.length).keys()),
       lsIsRandom: false,
@@ -30,11 +46,11 @@ if (typeof window !== 'undefined') {
         answered: 0,
         correct: 0
       }
-    }));
+    }
   }
 }
 
-const { lsCategoryId, lsQuestionsId, lsIsRandom, lsStats } = JSON.parse(localStorage.getItem('profile'))
+const { lsCategoryId, lsQuestionsId, lsIsRandom, lsStats } = getLocalStorage()
 
 export default function Home() {
   const [categoryId, setCategoryId] = useState(lsCategoryId)
