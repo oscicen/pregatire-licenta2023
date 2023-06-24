@@ -1,7 +1,6 @@
 'use client'
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState } from 'react'
 import classNames from 'classnames'
-import Cookies from 'js-cookie'
 import {
   Button,
   Box,
@@ -21,57 +20,17 @@ import { data } from '@/db/data'
 
 import styles from './page.module.scss'
 
-const defaultProfile = {
-  cCategoryId: 0,
-  cQuestionsId: [],
-  cIsRandom: false,
-  cStats: {
-    answered: 0,
-    correct: 0
-  }
-}
-
 export default function Home() {
   const [categoryId, setCategoryId] = useState(0)
-  const [questionsId, setQuestionsId] = useState([])
+  const [questionsId, setQuestionsId] = useState(Object.values([]))
   const [category, setCategory] = useState(null)
   const [question, setQuestion] = useState(null)
   const [isRandom, setIsRandom] = useState(false)
   const [open, setOpen] = useState(false)
   const [stats, setStats] = useState({ answered: 0, correct: 0 })
 
-  const didMountRef = useRef(false);
-
   useEffect(() => {
-    // Delete old cookie
-    if (Cookies.get('stats')) {
-      Cookies.remove('stats')
-    }
-
-    // Get and set initial state from profile cookie
-    if (Cookies.get('profile')) {
-      const { cCategoryId, cQuestionsId, cIsRandom, cStats } = JSON.parse(Cookies.get('profile'))
-      setIsRandom(cIsRandom)
-      setStats(cStats)
-      setCategoryId(cCategoryId)
-      setQuestionsId(Object.values(cQuestionsId))
-    } else {
-      Cookies.set('profile', JSON.stringify(defaultProfile), { expires: 7 })
-    }
-  }, []);
-
-  useEffect(() => {
-    // Quick fix
-    if (!questionsId.length) {
-      generateQuestionsId()
-    }
-  }, [])
-
-  useEffect(() => {
-    if (didMountRef.current) { 
-      generateQuestionsId()
-    }
-    didMountRef.current = true;
+    generateQuestionsId()
   }, [categoryId])
 
   useEffect(() => {
@@ -93,9 +52,6 @@ export default function Home() {
 
     const updatedQuestionsId = isRandom ? shuffle(ids) : ids
     setQuestionsId(updatedQuestionsId)
-
-    const cookie = JSON.parse(Cookies.get('profile'))
-    Cookies.set('profile', JSON.stringify({ ...cookie, cQuestionsId: { ...updatedQuestionsId } }))
   }
 
   const nextQuestion = () => {
@@ -103,9 +59,6 @@ export default function Home() {
       const updatedQuestionsId = [...questionsId]
       updatedQuestionsId.shift()
       setQuestionsId(updatedQuestionsId)
-
-      const cookie = JSON.parse(Cookies.get('profile'))
-      Cookies.set('profile', JSON.stringify({ ...cookie, cQuestionsId: { ...updatedQuestionsId } }))
     } else {
       generateQuestionsId()
     }
@@ -114,17 +67,11 @@ export default function Home() {
   const handleCategoryChange = (selectedCategory) => {
     if (categoryId !== selectedCategory) {
       setCategoryId(selectedCategory)
-
-      const cookie = JSON.parse(Cookies.get('profile'))
-      Cookies.set('profile', JSON.stringify({ ...cookie, cCategoryId: selectedCategory}))
     }
   }
 
   const resetStats = () => {
     setStats({ answered: 0, correct: 0 })
-
-    const cookie = JSON.parse(Cookies.get('profile'))
-    Cookies.set('profile', JSON.stringify({ ...cookie, cStats: { answered: 0, correct: 0 }}))
   }
 
   const onNext = (correct) => {
@@ -136,17 +83,12 @@ export default function Home() {
     }
 
     setStats({ ...newStats })
-    const cookie = JSON.parse(Cookies.get('profile'))
-    Cookies.set('profile', JSON.stringify({ ...cookie, cStats: { ...newStats } }))
 
     nextQuestion()
   }
 
   const handleRandom = (value) => {
     setIsRandom(value)
-
-    const cookie = JSON.parse(Cookies.get('profile'))
-    Cookies.set('profile', JSON.stringify({ ...cookie, cIsRandom: value }))
   }
 
   return (
