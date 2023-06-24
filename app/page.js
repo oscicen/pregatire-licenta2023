@@ -33,7 +33,7 @@ const defaultProfile = {
 
 export default function Home() {
   const [categoryId, setCategoryId] = useState(0)
-  const [questionsId, setQuestionsId] = useState([])
+  const [questionsId, setQuestionsId] = useState([0])
   const [category, setCategory] = useState(null)
   const [question, setQuestion] = useState(null)
   const [isRandom, setIsRandom] = useState(false)
