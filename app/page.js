@@ -50,6 +50,7 @@ const getLocalStorage = () => {
   }
 }
 
+// fixing build
 const { lsCategoryId, lsQuestionsId, lsIsRandom, lsStats } = getLocalStorage()
 
 export default function Home() {
