@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState, useRef } from 'react'
 import classNames from 'classnames'
+import Cookies from 'js-cookie'
 import {
   Button,
   Box,
@@ -19,6 +20,11 @@ import shuffle from '@/lib/shuffleArray'
 import { data } from '@/db/data'
 
 import styles from './page.module.scss'
+
+// Clear old cookies
+Cookies.remove('stats')
+Cookies.remove('profile')
+Cookies.remove('settings')
 
 
 if (typeof window !== 'undefined' && !localStorage.getItem('profile')) {
@@ -50,7 +56,6 @@ const getLocalStorage = () => {
   }
 }
 
-// fixing build
 const { lsCategoryId, lsQuestionsId, lsIsRandom, lsStats } = getLocalStorage()
 
 export default function Home() {
