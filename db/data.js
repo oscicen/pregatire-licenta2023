@@ -1709,7 +1709,7 @@ export const data = [
       {
         id: 63,
         number: 64,
-        question: 'Firma X, neînregistrată în scopuri de TVA, vinde mărfuri firmei Y, la preţul de vânzare de 8.000 lei, la data de 28.12.N. Ulterior, la 05.01.N + 1, cu factura nr 45 firma X facturează o reducere comercială de 3% pentru mărfurile vândute. La data primirii reducerii entitatea Y avea încă mărfurile. La firma Y, contabilizarea facturii nr 45 presupune:',
+        question: 'Firma X, neînregistrată în scopuri de TVA, vinde mărfuri firmei Y, la preţul de vânzare de 8.000 lei, conform facturii nr 1478 din 28.12.N. La 05.01.N + 1, cu factura nr 45 firma X facturează o reducere comerciala de 3% pentru mărfurile vândute. La data primirii reducerii entitatea Y vânduse mărfurile. La firma Y, contabilizarea facturii nr 45 presupune:',
         answers: [
           {
             id: 'a',
@@ -2139,7 +2139,7 @@ export const data = [
         ]
       },
       {
-        id: 80,
+        id: 79,
         number: 87,
         question: '. Un provizion va fi recunoscut în contabilitate în cazurile în care: <br />A. o societate are o obligaţie curentă (legală sau implicită) generată de un evenimentanterior; <br />B. o societate are o obligaţie curentă (legală sau implicită) generată de un evenimentcurent; <br />C. este probabil ca o ieşire de resurse care să afecteze beneficiile economice să fienecesară pentru a onora obligaţia respectivă; <br />D. este probabil ca o intrare de resurse care să afecteze beneficiile economice să fienecesară pentru a onora obligaţia respectivă; <br />E. nu este posibilă estimarea valorii obligaţiei; <br />F. poate fi realizată o bună estimare a valorii obligaţiei. <br />Variante de răspuns:',
         answers: [
@@ -2166,7 +2166,7 @@ export const data = [
         ]
       },
       {
-        id: 81,
+        id: 80,
         number: 88,
         question: 'Imobilizările corporale se prezintă în bilanț la valoarea contabilă, reprezentată de: ',
         answers: [
@@ -2193,7 +2193,7 @@ export const data = [
         ]
       },
       {
-        id: 82,
+        id: 81,
         number: 89,
         question: ' Imobilizările corporale reprezintă active care:',
         answers: [
@@ -2220,7 +2220,7 @@ export const data = [
         ]
       },
       {
-        id: 83,
+        id: 82,
         number: 90,
         question: 'Alegeţi răspunsul care NU este corect: pentru amortizarea imobilizărilor corporale o entitate economică poate să folosească metoda: ',
         answers: [
@@ -2247,7 +2247,7 @@ export const data = [
         ]
       },
       {
-        id: 84,
+        id: 83,
         number: 91,
         question: 'Care din următoarele afirmaţii privind imobilizările corporale NU este corectă:',
         answers: [
@@ -2274,7 +2274,7 @@ export const data = [
         ]
       },
       {
-        id: 85,
+        id: 84,
         number: 94,
         question: '. Entitatea ABC achiziţionează utilaj din import la sfârşitul lunii iunie a anului N, cheltuielile legate de achiziţie fiind : <br />- Pretul negociat cu furnizorul extern (3.000 $; curs valutar din DVI 3,3 lei/$; curs valutar in ziua platii 3,42 lei/$); <br />- taxe vamale 1.800 lei; <br />- TVA achitata în vamă 2.223 lei; <br />- cheltuieli de transport 1.500 lei; <br />- cheltuieli de manipulare 1.000 lei; <br />- reducere comercială primită de la furnizor 800 lei; <br />- reducere financiară (scont) primită de la furnizor 250 lei. <br />Durata de viaţă utilă este de 5 ani, amortizare liniară. <br />Care este valoarea la care se va reflecta utilajul în bilanţ la închiderea exerciţiului financiar N?',
         answers: [
@@ -2301,7 +2301,7 @@ export const data = [
         ]
       },
       {
-        id: 86,
+        id: 85,
         number: 96,
         question: 'Firma X achiziționează, la sfârșitul anului N, un utilaj la prețul de achiziție de 4.200 lei, transport 200 lei, montaj 400 lei, costuri de introducere a unui nou produs care se obține cu ajutorul utilajului 350 lei. Pentru utilaj firma alege metoda de amortizare liniară și o durată de viață de 5 ani. După 2 ani de funcționare se modifică durata de viață rămasă la 2 ani. Modificarea duratei de viață conduce la:',
         answers: [
@@ -2328,7 +2328,7 @@ export const data = [
         ]
       },
       {
-        id: 87,
+        id: 86,
         number: 97,
         question: 'Firma X achiziționează, la sfârșitul anului N, un utilaj la prețul de achiziție de 4.200 lei, transport 200 lei, montaj 400 lei, costuri de introducere a unui nou produs care se obține cu ajutorul utilajului 350 lei. Pentru utilaj firma alege metoda de amortizare liniară și o durată de viață de 5 ani. Amortizarea anuală corectă este:',
         answers: [
@@ -2355,7 +2355,7 @@ export const data = [
         ]
       },
       {
-        id: 88,
+        id: 87,
         number: 104,
         question: 'Care din următoarele afirmaţii nu este adevărată:',
         answers: [
@@ -2382,7 +2382,7 @@ export const data = [
         ]
       },
       {
-        id: 89,
+        id: 88,
         number: 105,
         question: 'O entitate achizitioneaza o imobilizare corporala in urmatoarele conditii: pret de cumparare 205.000 lei, reducere financiară 5.000 lei, TVA 19%. Instalarea este efectuata de o unitate specializata, cheltuielile cu instalarea fiind de 4.000 lei, TVA 19%. La sfarsitul duratei de viata utila, care este estimata la 5 ani, entitatea are obligatia legala de a demonta utilajul si de a reface amplasamentul, cheltuielile cu demontarea si refacerea amplasamentului fiind estimate la 6.000 lei. Care este costul imobilizarii (valoarea de recunoastere)?',
         answers: [
@@ -2409,7 +2409,7 @@ export const data = [
         ]
       },
       {
-        id: 90,
+        id: 89,
         number: 106,
         question: 'O entitate economică achizitioneaza, la sfârşitul anului N - 1, o imobilizare corporala al carei cost este de 150.000 lei. Aceasta imobilizare corporala se amortizeaza pe o durata de 7 ani, prin metoda liniară. La 31.12.N+1, imobilizarea se reevalueaza, la valoarea justa de 120.000 lei. Care este valoarea amortizarii in exercitiul N + 2.',
         answers: [
@@ -2436,7 +2436,7 @@ export const data = [
         ]
       },
       {
-        id: 91,
+        id: 90,
         number: 107,
         question: 'O entitate economică achizitioneaza, la sfârşitul anului N - 1, o imobilizare corporala al carei cost este de 117.000 lei. Aceasta imobilizare corporala se amortizeaza pe o durata de 10 ani. La 31 decembrie N + 2, imobilizarea se reevalueaza, la valoarea justa de 84.000 lei. Care este valoarea amortizarii inregistrata in exercitiul N + 1?',
         answers: [
@@ -2463,7 +2463,7 @@ export const data = [
         ]
       },
       {
-        id: 92,
+        id: 91,
         number: 108,
         question: 'O entitate economică achizitioneaza, la sfârşitul anului N, o imobilizare corporala al carei cost este de 80.000 lei. Aceasta imobilizare corporala se amortizeaza prin metoda liniară pe o durata de 4 ani. La 31.12.N+2, imobilizarea se reevalueaza, la valoarea justa de 35.000 lei. Care este valoarea rezervei din reevaluare înregistrată la sfârșitul exercitiul N + 2.',
         answers: [
@@ -2490,7 +2490,7 @@ export const data = [
         ]
       },
       {
-        id: 93,
+        id: 92,
         number: 109,
         question: 'Metoda de amortizare se poate modifica atunci când:',
         answers: [
@@ -2517,7 +2517,7 @@ export const data = [
         ]
       },
       {
-        id: 94,
+        id: 93,
         number: 110,
         question: 'Ce semnifică următoarea formulă contabilă: 461 = 7583 şi 281 = 21X',
         answers: [
@@ -2544,7 +2544,7 @@ export const data = [
         ]
       },
       {
-        id: 95,
+        id: 94,
         number: 112,
         question: 'Punerea în funcţiune a unei instalaţii obţinute în cursul lunii din producţia proprie și folosită în secția de producție, costul său fiind de 2.000 lei, va fi înregistrată cu formula:',
         answers: [
@@ -2571,7 +2571,7 @@ export const data = [
         ]
       },
       {
-        id: 96,
+        id: 95,
         number: 116,
         question: 'O entitate economică cu obiect de activitate producția de mezeluri, efectuează următoarele operații în legătură cu un utilaj de umplut salam: înlocuiește o curea de transmisie uzată (350 lei) și o componentă cu scopul de a crește numărul de bucăți salam umplute într-o oră (800 lei). Alegeți răspunsul pentru înregistrarea operațiior descriese:',
         answers: [
@@ -2598,7 +2598,7 @@ export const data = [
         ]
       },
       {
-        id: 97,
+        id: 96,
         number: 118,
         question: 'Se achiziționează un calculator la prețul de achiziție de 3.300 lei, un sistem de operare la costul de achiziție de 700 lei și un program antivirus la costul de 650 lei. Alegeți înregistrarea corectă.',
         answers: [
@@ -2625,7 +2625,7 @@ export const data = [
         ]
       },
       {
-        id: 98,
+        id: 97,
         number: 119,
         question: 'Care dintre următoarele active nu este considerat un activ imobilizat și va fi raportat în bilanț în categoria activelor circulante?',
         answers: [
@@ -2652,34 +2652,7 @@ export const data = [
         ]
       },
       {
-        id: 99,
-        number: 120,
-        question: 'La data de 01.01.N se importă un echipament în valoare de 45.000 lei, taxe vamale 450 lei, reducere comercială primită de la furnizor 200 lei. În vederea achiziţiei, societatea a suportat următoarele costuri suplimentare: costuri de livrare 360 lei, costuri de instalare 900 lei, costuri generale de administraţie 6.000 lei, cheltuieli cu reclama 2.000 lei. Pentru a aduce echipamentul în condiţiile de funcţionare s-au suportat costuri de 4.000 lei. Costurile de deschidere a noului echipament au fost de 2.500 lei, costurile de testare a funcţionării corecte a activului, de 1.700 lei, iar încasările nete provenite din vânzarea cozonacilor produși la testarea echipamentului, de 350 lei. În primele 4 luni, societatea s-a hotărât să introducă un nou sortiment de cozonaci, costurile fiind de 1.000 lei. Costul de achiziție al echipamentului este de:',
-        answers: [
-          {
-            id: 'a',
-            answer: '52.060 lei ',
-            isTrue: false
-          },
-          {
-            id: 'b',
-            answer: '51.860 lei',
-            isTrue: true
-          },
-          {
-            id: 'c',
-            answer: '52.210 lei',
-            isTrue: false
-          },
-          {
-            id: 'd',
-            answer: '54.360 lei',
-            isTrue: false
-          }
-        ]
-      },
-      {
-        id: 100,
+        id: 98,
         number: 121,
         question: 'Costul de achiziție al unui teren este de 120.000 lei. La sfârșitul anului N se face prima reevaluare a terenului la valoarea justă de 128.000 lei. La 31.12.N + 3 se face cea de a doua reevaluare la valoarea justă de 125.500 lei. Rezultatul reevaluării de la data de 31.12 N + 3 va genera:',
         answers: [
@@ -2706,7 +2679,7 @@ export const data = [
         ]
       },
       {
-        id: 101,
+        id: 99,
         number: 122,
         question: 'Costul de achiziție al unui teren este de 120.000 lei. La sfârșitul anului N se face prima reevaluare a terenului la valoarea justă de 119.000 lei. La 31.12.N + 3 se face cea de a doua reevaluare la valoarea justă de 116.500 lei. Rezultatul reevaluării de la data de 31.12 N + 3 va genera: ',
         answers: [
@@ -2733,7 +2706,7 @@ export const data = [
         ]
       },
       {
-        id: 102,
+        id: 100,
         number: 123,
         question: 'Ce semnifică următoarea înregistrare contabilă: 261 = 269',
         answers: [
@@ -2760,7 +2733,7 @@ export const data = [
         ]
       },
       {
-        id: 103,
+        id: 101,
         number: 124,
         question: 'Ce semnifică înregistrarea contabilă: 6641 = 261 25.000 lei',
         answers: [
@@ -2787,7 +2760,7 @@ export const data = [
         ]
       },
       {
-        id: 104,
+        id: 102,
         number: 125,
         question: 'Care este formula contabilă prin care se înregistrează în contabilitate contravaloarea „Altor titluri imobilizate” primite cu titlu gratuit:',
         answers: [
@@ -2814,7 +2787,7 @@ export const data = [
         ]
       },
       {
-        id: 105,
+        id: 103,
         number: 128,
         question: 'Se prezintă înregistrarea contabilă: 2913 = Cont X 700 Știind că aceasta reprezintă anularea ajustării reversibile pentru deprecierea unui utilaj (imobilizare corporală), Contul X este:',
         answers: [
@@ -2841,7 +2814,7 @@ export const data = [
         ]
       },
       {
-        id: 107,
+        id: 104,
         number: 129,
         question: 'Evaluarea stocurilor la intrare se face la cost de achiziţie alcătuit din:',
         answers: [
@@ -2868,7 +2841,7 @@ export const data = [
         ]
       },
       {
-        id: 108,
+        id: 105,
         number: 130,
         question: 'Metoda de evaluare a stocurilor FIFO:',
         answers: [
@@ -2895,7 +2868,7 @@ export const data = [
         ]
       },
       {
-        id: 109,
+        id: 106,
         number: 131,
         question: 'Ce semnifică următoarea formulă contabilă: 711 = 345',
         answers: [
@@ -2922,7 +2895,7 @@ export const data = [
         ]
       },
       {
-        id: 110,
+        id: 107,
         number: 133,
         question: 'Se achiziţionează mărfuri la preţ de achiziţie 4.760 lei inclusiv TVA 19%, rabat 2%, remiză 3%. Care este costul de achiziţie al mărfurilor?',
         answers: [
@@ -2949,7 +2922,7 @@ export const data = [
         ]
       },
       {
-        id: 111,
+        id: 108,
         number: 134,
         question: 'O entitate economică ţine evidenţa mărfurilor la preţ cu amănuntul inclusiv TVA, procentul de adaos comercial 20%. Se aprovizionează cu mărfuri pe baza facturii: preţ de cumpărare 7.735 lei (TVA inclus 19%), reducere comercială 5%. Preţul de vânzare cu amănuntul afişat în magazin este:',
         answers: [
@@ -2976,7 +2949,7 @@ export const data = [
         ]
       },
       {
-        id: 112,
+        id: 109,
         number: 135,
         question: 'O entitate economică ţine evidenţa mărfurilor la preţ cu amănuntul inclusiv TVA, procentul de adaos comercial 20%. Se aprovizionează cu mărfuri pe baza facturii: preţ de cumpărare 7.735 lei (TVA inclus 19%), reducere financiară 5%. Preţul de vânzare cu amănuntul afişat în magazin este:',
         answers: [
@@ -3003,7 +2976,7 @@ export const data = [
         ]
       },
       {
-        id: 113,
+        id: 110,
         number: 136,
         question: 'SC MIC S.A. a achiziţionat mărfuri din import la preţul de cumpărare 4.800 lei, taxe vamale 800 lei, TVA achitată în vamă 912 lei, cheltuieli de transport intern 150 lei, cheltuieli de manipulare 50 lei, reducere comercială acordată de furnizor 100 lei. Care este costul de achiziţie al mărfurilor:',
         answers: [
@@ -3030,7 +3003,7 @@ export const data = [
         ]
       },
       {
-        id: 114,
+        id: 111,
         number: 137,
         question: 'SC MIC S.A. a fabricat în cursul unei perioade de gestiune 600 bucăţi dintr-un produs pentru care s-au efectuat următoarele cheltuieli: cheltuieli directe 22.000 lei, cheltuieli indirecte 5.400 lei (din care cheltuieli fixe raţional repartizate 2.400 lei şi cheltuieli variabile 3.000 lei), cheltuieli de desfacere 2.000 lei. Care este costul de producţie?',
         answers: [
@@ -3057,61 +3030,7 @@ export const data = [
         ]
       },
       {
-        id: 115,
-        number: 138,
-        question: 'Stocul „X” prezintă în luna februarie anul N următoarea situaţie: sold iniţial 500 buc x 20 lei/buc; 5.02.N intrare 100 buc x 22 lei/buc; 12.02.N intrare 150 buc x 21 lei/buc; 15.02.N ieşire 550 buc. Ştiind că societatea foloseşte metoda de evaluare la ieşire FIFO, care este costul stocurilor ieşite?',
-        answers: [
-          {
-            id: 'a',
-            answer: '11.000 lei;',
-            isTrue: false
-          },
-          {
-            id: 'b',
-            answer: '27.400 lei;',
-            isTrue: true
-          },
-          {
-            id: 'c',
-            answer: '12.100 lei;',
-            isTrue: false
-          },
-          {
-            id: 'd',
-            answer: '11.550 lei.',
-            isTrue: false
-          }
-        ]
-      },
-      {
-        id: 116,
-        number: 139,
-        question: 'Stocul „X” prezintă în luna februarie anul N următoarea situaţie: sold iniţial 500 buc x 20 lei/buc; 5.02.N intrare 100 buc x 22 lei/buc; 12.02.N intrare 150 buc x 21 lei/buc; 11.02.N ieşire 550 buc. Ştiind că societatea foloseşte metoda de evaluare la ieşire LIFO, care este costul stocurilor ieşite?',
-        answers: [
-          {
-            id: 'a',
-            answer: '11.200 lei;',
-            isTrue: false
-          },
-          {
-            id: 'b',
-            answer: '11.100 lei;',
-            isTrue: true
-          },
-          {
-            id: 'c',
-            answer: '12.100 lei;',
-            isTrue: false
-          },
-          {
-            id: 'd',
-            answer: '11.350 lei.',
-            isTrue: false
-          }
-        ]
-      },
-      {
-        id: 117,
+        id: 112,
         number: 141,
         question: 'Se achiziţionează mărfuri la preţul de 10.000 lei, rabat 5%, remiză 7%, scont de decontare 2%, TVA 19%. Care este costul mărfurilor?',
         answers: [
@@ -3138,7 +3057,7 @@ export const data = [
         ]
       },
       {
-        id: 118,
+        id: 113,
         number: 142,
         question: 'Preţul de vanzare cu amănuntul este format din:',
         answers: [
@@ -3165,7 +3084,7 @@ export const data = [
         ]
       },
       {
-        id: 119,
+        id: 114,
         number: 145,
         question: 'O entitate economică are ca obiect de activitate vânzare mărfuri cu ridicata începând din februarie, anul N. Metodă de evaluare la ieșire folosită este LIFO. La sfârşitul anului N + 1 constată că metoda LIFO nu este adecvată dinamicii prețului mărfurilor și că metoda CMP ar oferi informații mai relevante și mai credibile prin intermediul situațiilor financiare. Entitatea are toate informațiile pentru a evalua mărfurile la noua metodă și pe anul precedent. În anul N cheltuielile cu mărfurile evaluate cu metoda CMP sunt cu 500 lei mai mici față de metoda LIFO, iar pentru anul N + 1, anul în curs, cu 50 lei mai mari. Efectul retrospectiv al modificării politicii contabile se înregistrează prin formula:',
         answers: [
@@ -3192,7 +3111,7 @@ export const data = [
         ]
       },
       {
-        id: 120,
+        id: 115,
         number: 146,
         question: 'O entitate economică, înregistrată în scopuri de TVA, care utilizează metoda inventarului intermitent, achiziţionează materii prime în următoarele condiţii: preţ de cumpărare 4.000 lei, reducere comercială 2%, TVA 19%. Recunoaşterea (contabilizarea) materiilor prime presupune:',
         answers: [
@@ -3219,7 +3138,7 @@ export const data = [
         ]
       },
       {
-        id: 121,
+        id: 116,
         number: 150,
         question: 'O entitate economică are mărfuri la cost de achiziție de 9.000 lei. Se vând 30% din mărfuri cu prețul de vânzare de 4.000 lei. Alegeți formula contabilă prin care se înregistrează descărcarea din evidența contabilă a mărfurilor vândute.',
         answers: [
@@ -3246,7 +3165,7 @@ export const data = [
         ]
       },
       {
-        id: 122,
+        id: 117,
         number: 151,
         question: 'Care din urmatoarele formule contabile nu este in concordanta cu explicatiile date?',
         answers: [
@@ -3273,7 +3192,7 @@ export const data = [
         ]
       },
       {
-        id: 123,
+        id: 118,
         number: 152,
         question: 'Ce semnifică următoarea formulă contabilă: 371 = 4428',
         answers: [
@@ -3300,7 +3219,7 @@ export const data = [
         ]
       },
       {
-        id: 124,
+        id: 119,
         number: 153,
         question: 'Ce semnifică următoarea formulă contabilă: 635 = 4426',
         answers: [
@@ -3327,7 +3246,7 @@ export const data = [
         ]
       },
       {
-        id: 125,
+        id: 120,
         number: 154,
         question: 'Ce semnifică următoarea formulă contabilă: <br />% = 4426 <br />4427 <br />4424',
         answers: [
@@ -3354,7 +3273,7 @@ export const data = [
         ]
       },
       {
-        id: 126,
+        id: 121,
         number: 155,
         question: 'Se cunosc următoarele informaţii despre stocul de mărfuri la 31.12.N: costul mărfurilor aflate în stoc 50.000 lei, preţul de vânzare estimat 60.000 lei, costuri estimate necesare vânzării mărfurilor 20.000 lei. În situaţiile financiare mărfurile vor fi prezentate la valoarea:',
         answers: [
@@ -3381,34 +3300,7 @@ export const data = [
         ]
       },
       {
-        id: 127,
-        number: 156,
-        question: 'Se cunosc următoarele informaţii despre stocul de mărfuri la 31.12.N: costul mărfurilor aflate în stoc 50.000 lei, preţul de vânzare estimat 60.000 lei, costuri estimate necesare vânzării mărfurilor 20.000 lei. În ianuarie anul următor acestea se vând la preţul de vânzare de 52.000 lei. În situaţiile financiare mărfurile vor fi prezentate la valoarea:',
-        answers: [
-          {
-            id: 'a',
-            answer: '20.000 lei;',
-            isTrue: false
-          },
-          {
-            id: 'b',
-            answer: '50.000 lei;',
-            isTrue: true
-          },
-          {
-            id: 'c',
-            answer: '52.000 lei;',
-            isTrue: false
-          },
-          {
-            id: 'd',
-            answer: '40.000 lei.',
-            isTrue: false
-          }
-        ]
-      },
-      {
-        id: 128,
+        id: 122,
         number: 157,
         question: 'Se cunosc următoarele informaţii despre stocul de mărfuri la 31.12.N: costul mărfurilor aflate în stoc 50.000 lei, preţul de vânzare estimat 60.000 lei, costuri estimate necesare vânzării mărfurilor 10.000 lei. În situaţiile financiare mărfurile vor fi prezentate la valoarea:',
         answers: [
@@ -3435,7 +3327,7 @@ export const data = [
         ]
       },
       {
-        id: 129,
+        id: 123,
         number: 158,
         question: 'Ce semnifică următoarea formulă contabilă: 711 = 331',
         answers: [
@@ -3462,7 +3354,7 @@ export const data = [
         ]
       },
       {
-        id: 130,
+        id: 124,
         number: 159,
         question: 'O entitate economică produce eșarfe. Cumpără mătase albă la prețul de achiziție de 1.200 lei, transport 100 lei, TVA 19%. Dorește să imprime eșarfele cu un model personalizat și pentru patern plătește suma de 50 lei. Trimite mătasea și modelul ales la un atelier specializat în imprimarea țesăturilor și imprimeria facturează suma de 720 lei. Cum se înregistrează corect operațiunea de trimitere a materialului spre imprimare?',
         answers: [
@@ -3489,7 +3381,7 @@ export const data = [
         ]
       },
       {
-        id: 131,
+        id: 125,
         number: 160,
         question: 'O entitate economică produce eșarfe. Cumpără mătase albă la prețul de achiziție de 1.200 lei, transport 100 lei, TVA 19%. Dorește să imprime eșarfele cu un model personalizat și pentru patern plătește suma de 50 lei. Trimite mătasea și modelul ales la un atelier specializat în imprimarea țesăturilor și imprimeria facturează suma de 720 lei (fără TVA). Cum se înregistrează corect factura primită de la imprimerie?',
         answers: [
@@ -3516,7 +3408,7 @@ export const data = [
         ]
       },
       {
-        id: 132,
+        id: 126,
         number: 161,
         question: 'O entitate economică produce eșarfe. Cumpără mătase albă la prețul de achiziție de 1.200 lei, transport 100 lei, TVA 19%. Dorește să imprime eșarfele cu un model personalizat și pentru patern plătește suma de 50 lei. Trimite mătasea și modelul ales la un atelier specializat în imprimarea țesăturilor și imprimeria facturează suma de 720 lei (fără TVA). Cum se înregistrează corect returul materialelor de la imprimerie?',
         answers: [
@@ -3543,7 +3435,7 @@ export const data = [
         ]
       },
       {
-        id: 133,
+        id: 127,
         number: 162,
         question: 'Producția neterminată la sfârșitul unei perioade de gestiune, în valoare de 800 lei se înregistrează prin formula contabilă:',
         answers: [
@@ -3570,7 +3462,7 @@ export const data = [
         ]
       },
       {
-        id: 134,
+        id: 128,
         number: 165,
         question: 'Cu ocazia inventarierii, se constată plusuri în gestiunea de materii prime în valoare de 660 lei. Alegeți înregistrarea corectă.',
         answers: [
@@ -3597,7 +3489,7 @@ export const data = [
         ]
       },
       {
-        id: 135,
+        id: 129,
         number: 166,
         question: 'O entitate economică produce cozonaci. La inceputul lunii martie calculeaza costul standard de 5 lei / kg. La sfarsitul lunii, costul efectiv este de 5,2 lei/ kg. Stiind ca s-au obtinut 100 Kg cozonac, diferenta dintre costul standard si costul efectiv se inregistreaza prin formula contabila:',
         answers: [
@@ -3624,7 +3516,7 @@ export const data = [
         ]
       },
       {
-        id: 136,
+        id: 130,
         number: 167,
         question: 'Pentru produse finite, o firmă stabileste costul standard de 2,200 lei. Se cunoasc următoarele informații: s-au consumat materii prime la costul de achiziție de 1.000 lei, mat consumabile 200 lei, salarii 500 lei, din care muncitori direct productivi 150 lei, amortizare 75 lei, ch desfacere 100 lei, alte ch indirecte repartizate rational 600 lei. Sa se calculeze costul efectiv de productie.',
         answers: [
@@ -3651,7 +3543,7 @@ export const data = [
         ]
       },
       {
-        id: 137,
+        id: 131,
         number: 168,
         question: 'Pentru produse finite, o firmă stabileste costul standard de 2.200 lei. Se cunoasc următoarele informații: s-au consumat materii prime la costul de achiziție de 1.000 lei, mat consumabile 200 lei, salarii 500 lei, din care muncitori direct productivi 150 lei, amortizare 75 lei, ch desfacere 100 lei, alte ch indirecte repartizate rational 600 lei. Diferența dintre costul standard si costul efectiv se înregistrează prin formula:',
         answers: [
@@ -3678,7 +3570,7 @@ export const data = [
         ]
       },
       {
-        id: 138,
+        id: 132,
         number: 170,
         question: 'O societate deţine în stoc la 31 decembrie N 1.000 bucăţi produse finite al căror cost de producţie efectiv este de 3 lei/buc. Preţul de piaţă al produselor al sfârşitul exerciţiului N este de 3,20 lei/buc. Cheltuielile necesare pentru realizarea vânzării reprezintă 150 lei. Care este valoarea la care se vor prezenta produsele finite în bilanţul de la 31 XII N?',
         answers: [
@@ -3705,7 +3597,7 @@ export const data = [
         ]
       },
       {
-        id: 139,
+        id: 133,
         number: 171,
         question: '. Se achiziționează materii prime la prețul de achiziție de 5.000 lei, reducere comerciala 4%, TVA 19%., transport 200 lei, costuri privind descărcarea 50 lei, depozitare după ce au fost luate în primire, înainte de a fi date in producție 100 lei. Costul de achiziție este de:',
         answers: [
@@ -3732,7 +3624,7 @@ export const data = [
         ]
       },
       {
-        id: 140,
+        id: 134,
         number: 172,
         question: 'O entitate economică are o hală de producție închiriată cu o capacitate de producție de 5.000 buc. pe lună și o chirie de 800 lei pe lună. În luna martie se obțin 4.500 buc. produse finite pentru care se cunosc următoarele informații privind costurile: materii prime 1.000 lei, materiale consumabile 200 lei, salarii muncitori direct productivi 300 lei, amortizarea utilajelor din hală 400 lei, consum curent electric 150 lei. Costul de producție este de:',
         answers: [
@@ -3759,7 +3651,7 @@ export const data = [
         ]
       },
       {
-        id: 141,
+        id: 135,
         number: 173,
         question: 'Potrivit reglementărilor contabile aprobate prin OMFP 1.802/02014, stocurile sunt depreciate dacă:',
         answers: [
@@ -3786,7 +3678,7 @@ export const data = [
         ]
       },
       {
-        id: 142,
+        id: 136,
         number: 174,
         question: 'Creanţele şi datoriile în valută, precum şi creanţele şi datoriile exprimate în lei, a căror decontare se face în funcţie de cursul unei valute, se evaluează:',
         answers: [
@@ -3813,7 +3705,7 @@ export const data = [
         ]
       },
       {
-        id: 143,
+        id: 137,
         number: 175,
         question: 'Diferenţele de curs valutar care apar cu ocazia decontării creanţelor şi datoriilor în valută, precum şi cu ocazia evaluării acestora, trebuie recunoscute ca:',
         answers: [
@@ -3840,7 +3732,7 @@ export const data = [
         ]
       },
       {
-        id: 144,
+        id: 138,
         number: 176,
         question: 'Diferenţele de valoare care apar cu ocazia decontării creanţelor şi datoriilor exprimate în lei, în funcţie de un curs valutar diferit de cel la care au fost înregistrate iniţial, precum şi cu ocazia evaluării acestora, trebuie recunoscute ca:',
         answers: [
@@ -3867,7 +3759,7 @@ export const data = [
         ]
       },
       {
-        id: 145,
+        id: 139,
         number: 177,
         question: 'În luna decembrie, anul N, se primeşte factura pentru chiria unui spaţiu comercial aferentă lunii ianuarie anul N + 1 în valoare de 700 lei. Care este formula contabilă corectă?',
         answers: [
@@ -3894,7 +3786,7 @@ export const data = [
         ]
       },
       {
-        id: 146,
+        id: 140,
         number: 179,
         question: 'Ce semnifică următoarea formulă contabilă: 413 = 4111',
         answers: [
@@ -3921,7 +3813,7 @@ export const data = [
         ]
       },
       {
-        id: 147,
+        id: 141,
         number: 180,
         question: 'Ce semnifică următoarea formulă contabilă: 419 = 4111',
         answers: [
@@ -3948,34 +3840,7 @@ export const data = [
         ]
       },
       {
-        id: 148,
-        number: 181,
-        question: 'Ce semnifică următoarea formulă contabilă: 667 = 4111',
-        answers: [
-          {
-            id: 'a',
-            answer: 'vânzarea mărfurilor;',
-            isTrue: false
-          },
-          {
-            id: 'b',
-            answer: 'înregistrarea scontului acordat;',
-            isTrue: true
-          },
-          {
-            id: 'c',
-            answer: 'încasarea contravalorii mărfurilor vândute;',
-            isTrue: false
-          },
-          {
-            id: 'd',
-            answer: 'scoaterea din evidenţa contabilă a scontului.',
-            isTrue: false
-          }
-        ]
-      },
-      {
-        id: 149,
+        id: 142,
         number: 182,
         question: 'Ce semnifică următoarea formulă contabilă: 401 = 403',
         answers: [
@@ -4002,7 +3867,7 @@ export const data = [
         ]
       },
       {
-        id: 150,
+        id: 143,
         number: 183,
         question: 'Ce semnifică următoarea formulă contabilă: 5113 = 413',
         answers: [
@@ -4029,7 +3894,7 @@ export const data = [
         ]
       },
       {
-        id: 151,
+        id: 144,
         number: 184,
         question: 'Obligaţia de plată a impozitului pe clădiri se înregistrează prin formula contabilă:',
         answers: [
@@ -4056,7 +3921,7 @@ export const data = [
         ]
       },
       {
-        id: 152,
+        id: 145,
         number: 185,
         question: 'Ce semnifică următoarea formulă contabilă: 691 = 441',
         answers: [
@@ -4083,7 +3948,7 @@ export const data = [
         ]
       },
       {
-        id: 153,
+        id: 146,
         number: 186,
         question: 'Se prezintă înregistrarea contabilă: Cont X = 4111 15.000 Știind că aceasta reprezintă înregistrarea ca urmare a informației primită de la un client că a intrat în imposibilitate de plată cu probabilitatea de a-și reveni din punct de vedere economic, contul X este:',
         answers: [
@@ -4110,34 +3975,7 @@ export const data = [
         ]
       },
       {
-        id: 154,
-        number: 187,
-        question: 'Situaţia creanţelor clienţi, la o firmă neînregistrată în scopuri de TVA, la sfârşitul anului N este: client A 1.000 lei probabilitate de încasare 55%; client B 1.300 lei, probabilitate de încasare 30%; client C 1.500 lei, probabilitatea de neîncasare 30%. Care este mărimea ajustărilor pentru deprecierea creanţelor ce pot fi constituite la sfârşitul anului N?',
-        answers: [
-          {
-            id: 'a',
-            answer: '2.294 lei;',
-            isTrue: false
-          },
-          {
-            id: 'b',
-            answer: '2.710 lei;',
-            isTrue: false
-          },
-          {
-            id: 'c',
-            answer: '1.810 lei;',
-            isTrue: true
-          },
-          {
-            id: 'd',
-            answer: '1.920 lei.',
-            isTrue: false
-          }
-        ]
-      },
-      {
-        id: 155,
+        id: 147,
         number: 188,
         question: 'Pentru asigurarea unui mijloc de transport încheiată la sfârșitul lunii martie, pentru o perioadă de 12 luni, în valoare de 1.200 lei, în luna septembrie se face înregistrarea:',
         answers: [
@@ -4164,7 +4002,7 @@ export const data = [
         ]
       },
       {
-        id: 156,
+        id: 148,
         number: 189,
         question: 'Avansul în sumă de 1.800 lei, achitat unui firme neînregistrată în scopuri de TVA, în vederea achiziției de mărfuri se înregistrează prin formula contabilă:',
         answers: [
@@ -4191,7 +4029,7 @@ export const data = [
         ]
       },
       {
-        id: 157,
+        id: 149,
         number: 190,
         question: 'Alegeţi formula contabilă corectă, în situaţia achitării avansului din salarii în valoare de 2.600 lei',
         answers: [
@@ -4218,7 +4056,7 @@ export const data = [
         ]
       },
       {
-        id: 158,
+        id: 150,
         number: 191,
         question: 'Ce semnifică următoarea formulă contabilă: 646 = 436',
         answers: [
@@ -4245,7 +4083,7 @@ export const data = [
         ]
       },
       {
-        id: 159,
+        id: 151,
         number: 192,
         question: 'Ce semnifică următoarea formulă contabilă: 421 = 426',
         answers: [
@@ -4272,7 +4110,7 @@ export const data = [
         ]
       },
       {
-        id: 160,
+        id: 152,
         number: 193,
         question: 'Ce semnifică următoarea formulă contabilă: 425 = 5311',
         answers: [
@@ -4299,7 +4137,7 @@ export const data = [
         ]
       },
       {
-        id: 161,
+        id: 153,
         number: 194,
         question: 'Salariile neridicate se înregistrază prin formula contabilă:',
         answers: [
@@ -4326,7 +4164,7 @@ export const data = [
         ]
       },
       {
-        id: 162,
+        id: 154,
         number: 195,
         question: 'Contribuția de asigurări sociale de sănătate se înregistrează prin formula contabilă;',
         answers: [
@@ -4353,7 +4191,7 @@ export const data = [
         ]
       },
       {
-        id: 163,
+        id: 155,
         number: 196,
         question: 'Impozitul pe dividendele distribuite asociaților sau acționarilor se înregistrează prin formula:',
         answers: [
@@ -4380,7 +4218,7 @@ export const data = [
         ]
       },
       {
-        id: 164,
+        id: 156,
         number: 197,
         question: 'Dividendele distribuite asociaților sau acționarilor la hotărâre AGA se înregistrează prin formula contabilă:',
         answers: [
@@ -4407,7 +4245,7 @@ export const data = [
         ]
       },
       {
-        id: 165,
+        id: 157,
         number: 198,
         question: 'La deschiderea unui acreditiv se face înregistrarea:',
         answers: [
@@ -4434,7 +4272,7 @@ export const data = [
         ]
       },
       {
-        id: 166,
+        id: 158,
         number: 199,
         question: 'Se ridică numerar din bancă 2.500 lei. Alegeţi înregistrarea corectă:',
         answers: [
@@ -4445,7 +4283,7 @@ export const data = [
           },
           {
             id: 'b',
-            answer: '5121 = 581 2.500 ',
+            answer: '5121 = 581 2.500 581 = 5311 2.500',
             isTrue: false
           },
           {
@@ -4455,13 +4293,13 @@ export const data = [
           },
           {
             id: 'd',
-            answer: '5121 = 5311 2.500',
+            answer: '5121 = 5311 2.500 5311 = 581 2.500',
             isTrue: true
           }
         ]
       },
       {
-        id: 167,
+        id: 159,
         number: 201,
         question: 'Contravaloarea altor investiţii pe termen scurt primite cu titlu gratuit se înregistrează prin formula contabilă:',
         answers: [
@@ -4488,7 +4326,7 @@ export const data = [
         ]
       },
       {
-        id: 168,
+        id: 160,
         number: 203,
         question: 'Pe 31 decembrie, o entitate economică are, în contul la bancă în euro, 2.000 euro cu o valoare contabilă de 7.440 lei. Cursul oficial de schimb la 31 decembrie este de 3,691 lei/euro. Care este formula contabilă de înregistrare a diferenţei rezultate din evaluarea contului la 31 decem ',
         answers: [
@@ -4515,7 +4353,7 @@ export const data = [
         ]
       },
       {
-        id: 169,
+        id: 161,
         number: 204,
         question: 'Pe 31 decembrie, o entitate economică are, în contul la bancă în euro, 2.000 euro cu o valoare contabilă de 9.600 lei. Cursul oficial de schimb la 31 decembrie este de 4,829 lei/euro. Care este formula contabilă de înregistrare a diferenţei rezultate din evaluarea contului la 31 decembrie?',
         answers: [
@@ -4542,7 +4380,7 @@ export const data = [
         ]
       },
       {
-        id: 170,
+        id: 162,
         number: 205,
         question: 'Care din urmatoarele formule contabile nu este in concordanta cu explicatiile date?',
         answers: [
@@ -4569,7 +4407,7 @@ export const data = [
         ]
       },
       {
-        id: 171,
+        id: 163,
         number: 206,
         question: 'Care din urmatoarele formule contabile nu este in concordanta cu explicatiile date?',
         answers: [
@@ -4596,7 +4434,7 @@ export const data = [
         ]
       },
       {
-        id: 172,
+        id: 164,
         number: 207,
         question: 'Care din urmatoarele formule contabile nu este in concordanta cu explicatiile date?',
         answers: [
@@ -4623,7 +4461,7 @@ export const data = [
         ]
       },
       {
-        id: 173,
+        id: 165,
         number: 208,
         question: 'O entitate economică are 200 acțiuni pe termen scurt de la firma X cotată la bursă, la valoarea contabilă de 2,200 lei și 320 acțiuni pe termen scurt de la firma Y cotată la bursă, la valoarea contabilă de 3.840 lei. La sfârșitul anului N, valoarea de inventar unitara a acțiunilor firmei X este de 11,5 lei, iar a acțiunilor firmei Y 11,20 lei / acțiune. Considerând analiticele X și Y pentru cele două firme de la care entitatea economică deține acțiuni, alegeți înregistrările corecte care se fac ca urmare a evaluării la inventar.',
         answers: [
@@ -4650,7 +4488,7 @@ export const data = [
         ]
       },
       {
-        id: 174,
+        id: 166,
         number: 209,
         question: 'În data de 28 ianuarie se prestează un serviciu în valoare de 500 lei, TVA 19%, pentru contravaloarea căruia se acceptă un bilet la ordin scadent peste 15 zile. La scadență se remite băncii spre încasare. Alegeți formula contabilă corectă:',
         answers: [
@@ -4677,34 +4515,7 @@ export const data = [
         ]
       },
       {
-        id: 175,
-        number: 211,
-        question: 'Pe data de 30 martie, se achită cu cardul (prin POS) contribuția asiguratorie pentru muncă în sumă de 250 lei. Alegeți formula corectă:',
-        answers: [
-          {
-            id: 'a',
-            answer: '646 = 5121 250',
-            isTrue: false
-          },
-          {
-            id: 'b',
-            answer: '436 = 5121 250',
-            isTrue: false
-          },
-          {
-            id: 'c',
-            answer: '436 = 5125 250',
-            isTrue: true
-          },
-          {
-            id: 'd',
-            answer: '5125 = 5121 250',
-            isTrue: false
-          }
-        ]
-      },
-      {
-        id: 176,
+        id: 167,
         number: 212,
         question: 'Pe data de 2 aprilie se primește extrasul de cont care atestă decontarea achitării prin POS la Trezorerie a contribuției asiguratorii pentru muncă în valoare de 250 lei. Alegeți formula corectă:',
         answers: [
@@ -4731,7 +4542,7 @@ export const data = [
         ]
       },
       {
-        id: 177,
+        id: 168,
         number: 213,
         question: 'La sfârșitul exercițiului financiar N, avansul de trezorerie în sumă de 1.100 lei acordat unui salariat nu a fost justificat. Ce trebuie să facă contabilul înaninte de întocmirea situațiilor financiare la 31.12.N?',
         answers: [
@@ -4758,7 +4569,7 @@ export const data = [
         ]
       },
       {
-        id: 178,
+        id: 169,
         number: 214,
         question: 'O entitate economică are 200 acțiuni pe termen scurt de la firma X cotată la bursă, la valoarea contabilă de 2,200 lei și 320 acțiuni pe termen scurt de la firma Y necotată la bursă, la valoarea contabilă de 3.840 lei. La sfârșitul anului N, valoarea de inventar unitara a acțiunilor firmei X este de 11,5 lei, iar a acțiunilor firmei Y 11,20 lei / acțiune. Considerând analiticele X și Y pentru cele două firme de la care entitatea economică deține acțiuni, alegeți înregistrările corecte care se fac ca urmare a evaluării la inventar',
         answers: [
