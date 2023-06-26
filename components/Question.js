@@ -61,7 +61,7 @@ const Question = ({ question, goNext, isList, skipQuestion }) => {
       </Box>
       { !isList && (
         <ButtonGroup className={styles.actions}>
-          <Button onClick={onSkip}>Treci peste</Button>
+          <Button isDisabled={guess.length} onClick={onSkip}>Treci peste</Button>
           <Button isDisabled={!guess.length} onClick={() => setCheck(true)}>Verifica</Button>
           <Button isDisabled={!check} onClick={onNextQuestion}>Urmatoarea Intrebare</Button>
         </ButtonGroup>
