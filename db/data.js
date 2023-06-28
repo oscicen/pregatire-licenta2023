@@ -2317,12 +2317,12 @@ export const data = [
           },
           {
             id: 'c',
-            answer: 'Recalcularea amortizării pentru anii precedenți și înregistrarea diferenței 1174 = 2131',
+            answer: 'Recalcularea amortizării pentru durata de viață rămasă și înregistrarea 6811 = 2813',
             isTrue: true
           },
           {
             id: 'd',
-            answer: '12.060 lei',
+            answer: 'Recalcularea amortizării pentru anii precedenți și înregistrarea diferenței 1174 = 2131',
             isTrue: false
           }
         ]
@@ -3073,12 +3073,12 @@ export const data = [
           },
           {
             id: 'c',
-            answer: 'preţul de achiziţie + adaos comercial.',
+            answer: 'preţul de achiziţie + adaos comercial + TVAneexigibil;',
             isTrue: false
           },
           {
             id: 'd',
-            answer: '8.835 lei.',
+            answer: 'preţul de achiziţie + adaos comercial.',
             isTrue: false
           }
         ]
