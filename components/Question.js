@@ -5,7 +5,7 @@ import { Box, Button, ButtonGroup } from '@chakra-ui/react'
 
 import styles from './question.module.scss'
 
-const Question = ({ question, goNext, isList, skipQuestion }) => {
+const Question = ({ question, goNext, isList, skipQuestion, hide }) => {
   const [guess, setGuess] = useState('')
   const [check, setCheck] = useState(false)
 
@@ -42,7 +42,7 @@ const Question = ({ question, goNext, isList, skipQuestion }) => {
     <div className={classNames(styles.container, { [styles.list]: isList })}>
       <Box w='100%' borderRadius='md' borderWidth='1px' p={4} className={classNames({ [styles.important]: question?.important })}>
         { question?.important && <div className={ styles.badge }>{ importantText }</div> }
-        <h3 dangerouslySetInnerHTML={{ __html: `${ question.number }. ${ question.question }` }} />
+        <h3 dangerouslySetInnerHTML={{ __html: `${ hide ? '??' : question.number }. ${ question.question }` }} />
         <div className={ styles.answers }>
           { question.answers.map(answer => (
             <button
@@ -54,7 +54,7 @@ const Question = ({ question, goNext, isList, skipQuestion }) => {
               onClick={() => onAnswerSelect(answer.id) }
               key={answer.id}
             >
-              { `${answer.id}) ${answer.answer}` }
+              { `${hide ? '?' : answer.id}) ${answer.answer}` }
             </button>
           )) }
         </div>

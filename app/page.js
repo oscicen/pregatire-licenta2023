@@ -32,6 +32,7 @@ if (typeof window !== 'undefined' && !localStorage.getItem('profile')) {
     lsCategoryId: 0,
     lsQuestionsId: Array.from(Array(data[0].questions.length).keys()),
     lsIsRandom: false,
+    lsHide: false,
     lsStats: {
       answered: 0,
       correct: 0
@@ -48,6 +49,7 @@ const getLocalStorage = () => {
       lsCategoryId: 0,
       lsQuestionsId: Array.from(Array(data[0].questions.length).keys()),
       lsIsRandom: false,
+      lsHide: false,
       lsStats: {
         answered: 0,
         correct: 0
@@ -56,7 +58,7 @@ const getLocalStorage = () => {
   }
 }
 
-const { lsCategoryId, lsQuestionsId, lsIsRandom, lsStats } = getLocalStorage()
+const { lsCategoryId, lsQuestionsId, lsIsRandom, lsHide = false, lsStats } = getLocalStorage()
 
 export default function Home() {
   const [categoryId, setCategoryId] = useState(lsCategoryId)
@@ -64,6 +66,7 @@ export default function Home() {
   const [category, setCategory] = useState(null)
   const [question, setQuestion] = useState(null)
   const [isRandom, setIsRandom] = useState(lsIsRandom)
+  const [hide, setHide] = useState(lsHide)
   const [stats, setStats] = useState(lsStats)
   const [open, setOpen] = useState(false)
 
@@ -99,11 +102,12 @@ export default function Home() {
         lsCategoryId: categoryId,
         lsQuestionsId: questionsId,
         lsIsRandom: isRandom,
+        lsHide: hide,
         lsStats: stats
       }))
     }
     lsRef.current = true;
-  }, [categoryId, questionsId, isRandom, stats])
+  }, [categoryId, questionsId, isRandom, hide, stats])
 
   const generateQuestionsId = () => {
     const ids = Array.from(Array(data[categoryId].questions.length).keys())
@@ -182,8 +186,11 @@ export default function Home() {
                 </Box>
               )) }
               <br />
-              <p>Mod afisare aleatoriu?</p>
+              <p>Mod afisare aleatorie?</p>
               <Switch isChecked={isRandom} onChange={(e) => handleRandom(e.target.checked)} />
+              <br />
+              <p>Ascunde informațiile întrebărilor?</p>
+              <Switch isChecked={hide} onChange={(e) => setHide(e.target.checked)} />
               <br />
               <p>Reseteaza progresul:</p>
               <Button mr={3} onClick={() => resetStats()}>
@@ -207,7 +214,7 @@ export default function Home() {
           </div>
         </div>
       )}
-      {question && <Question question={question} goNext={onNext} skipQuestion={nextQuestion} />}
+      {question && <Question question={question} goNext={onNext} skipQuestion={nextQuestion} hide={hide} />}
     </main>
   )
 }
