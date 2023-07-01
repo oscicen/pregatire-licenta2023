@@ -1,13 +1,19 @@
 'use client'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import classNames from 'classnames';
 import { Box, Button, ButtonGroup } from '@chakra-ui/react'
+import shuffle from '@/lib/shuffleArray';
 
 import styles from './question.module.scss'
 
 const Question = ({ question, goNext, isList, skipQuestion, hide }) => {
   const [guess, setGuess] = useState('')
   const [check, setCheck] = useState(false)
+  const [answers, setAnswers] = useState([])
+
+  useEffect(() => {
+    setAnswers(hide ? shuffle([...question.answers]) : [...question.answers]);
+  }, [question, hide])
 
   const onNextQuestion = () => {
     setGuess('')
@@ -44,7 +50,7 @@ const Question = ({ question, goNext, isList, skipQuestion, hide }) => {
         { question?.important && <div className={ styles.badge }>{ importantText }</div> }
         <h3 dangerouslySetInnerHTML={{ __html: `${ hide ? '??' : question.number }. ${ question.question }` }} />
         <div className={ styles.answers }>
-          { question.answers.map(answer => (
+          { answers.map(answer => (
             <button
               className={classNames({
                 [styles.guess]: answer.id === guess,

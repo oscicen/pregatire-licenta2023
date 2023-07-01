@@ -189,7 +189,7 @@ export default function Home() {
               <p>Mod afisare aleatorie?</p>
               <Switch isChecked={isRandom} onChange={(e) => handleRandom(e.target.checked)} />
               <br />
-              <p>Ascunde informațiile întrebărilor?</p>
+              <p>Ascunde informațiile întrebărilor si amesteca raspunsurile?</p>
               <Switch isChecked={hide} onChange={(e) => setHide(e.target.checked)} />
               <br />
               <p>Reseteaza progresul:</p>
