@@ -37,7 +37,8 @@ export default function RootLayout({ children }) {
                   Menu
                 </MenuButton>
                 <MenuList>
-                  <MenuItem><Link className={pathname == "/" ? "active" : ""} href='/'>Chestionar</Link></MenuItem>
+                  <MenuItem><Link className={pathname == "/" ? "active" : ""} href='/'>Home</Link></MenuItem>
+                  <MenuItem><Link className={pathname == "/chestionar" ? "active" : ""} href='/'>Chestionar</Link></MenuItem>
                   <MenuItem><Link className={pathname == "/contabilitate-financiara" ? "active" : ""} href='/contabilitate-financiara'>Contabilitate Financiara</Link></MenuItem>
                   <MenuItem><Link className={pathname == "/baze-date" ? "active" : ""} href='/baze-date'>Baze de Date</Link></MenuItem>
                   <MenuItem><Link className={pathname == "/sisteme-gestiune" ? "active" : ""} href='/sisteme-gestiune'>Sisteme Informatice de Gestiune</Link></MenuItem>
