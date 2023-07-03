@@ -78,6 +78,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  h2 {
+    font-size: 31px;
+  }
 }
 
 @media screen and (max-width: 768px) {
