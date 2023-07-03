@@ -6,7 +6,7 @@ import styles from './page.module.scss'
 export default function Home() {
   return (
     <div className={styles.end}>
-      <Heading as='h2' size='2xl' noOfLines={1}>
+      <Heading as='h2' size='1xl' noOfLines={1}>
         Felicitari tuturor! 🎉
       </Heading>
     </div>
