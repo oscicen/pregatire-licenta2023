@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.end}>
       <Heading as='h2' size='1xl' noOfLines={1}>
-        Felicitari tuturor! 🎉
+        Felicitări tuturor! 🎉
       </Heading>
     </div>
   )
